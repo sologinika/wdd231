@@ -1,0 +1,95 @@
+@media screen and (min-width: 700px) {
+
+    /* =========================
+       HEADER
+    ========================= */
+
+    .header-content {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 1rem 0;
+    }
+
+
+    /* =========================
+       MENU
+    ========================= */
+
+    #menuButton {
+        display: none;
+    }
+
+
+    /* =========================
+       NAVIGATION
+    ========================= */
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    nav a {
+        border-top: none;
+        padding: 1rem 2rem;
+    }
+
+
+    /* =========================
+       ABOUT
+    ========================= */
+
+    .about-content {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 2rem;
+        align-items: center;
+    }
+
+
+    /* =========================
+       LOCATION
+    ========================= */
+
+    .location-content {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 2rem;
+        align-items: center;
+    }
+
+
+    /* =========================
+       BUTTONS
+    ========================= */
+
+    .course-buttons {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .course-buttons button {
+        min-width: 150px;
+    }
+
+
+    /* =========================
+       COURSE GRID
+    ========================= */
+
+    .course-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+
+@media screen and (min-width: 1000px) {
+
+    .course-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+}
