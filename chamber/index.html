@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Abia Business Chamber home page connecting businesses, entrepreneurs, and organizations across Abia State, Nigeria.">
+
+    <meta name="author"
+          content="Solomon Ginikachukwu">
+
+    <title>Abia Business Chamber | Home</title>
+
+    <!-- Open Graph -->
+    <meta property="og:title"
+          content="Abia Business Chamber | Home">
+
+    <meta property="og:description"
+          content="Connecting businesses and organizations across Abia State, Nigeria.">
+
+    <meta property="og:image"
+          content="https://sologinika.github.io/wdd231-hw/chamber/images/eastern.png">
+
+    <meta property="og:url"
+          content="https://sologinika.github.io/wdd231-hw/chamber/index.html">
+
+    <meta property="og:type"
+          content="website">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/larger.css">
+
+    <script src="js/index.js" type="module"></script>
+</head>
+
+<body>
+
+<header>
+    <div class="header-container">
+
+        <a class="logo-link" href="index.html">
+            <img src="images/eastern.png"
+                 alt="Abia Business Chamber logo"
+                 width="100"
+                 height="100">
+            
+            <span>
+                <strong>Abia Business</strong>
+                <small>Chamber of Commerce</small>
+            </span>
+        </a>
+
+        <button id="menu-button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="nav-menu">
+            ☰
+        </button>
+
+        <nav id="nav-menu">
+
+            <a href="index.html" class="active">
+                Home
+            </a>
+
+            <a href="directory.html">
+                Directory
+            </a>
+
+            <a href="discover.html">
+                Discover
+            </a>
+
+            <a href="join.html">
+                Join
+            </a>
+
+        </nav>
+
+    </div>
+</header>
+
+
+<main>
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <img src="images/hero.webp"
+             alt="Businesses and entrepreneurs in Abia State"
+             width="1200"
+             height="600"
+             fetchpriority="high">
+
+        <div class="hero-content">
+
+            <h1>
+                Building a Stronger Business Community
+            </h1>
+
+            <p>
+                Connecting businesses, entrepreneurs, and organizations
+                throughout Abia State.
+            </p>
+
+            <a class="cta-button" href="join.html">
+                Join the Chamber
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- EVENTS -->
+    <section class="home-section events">
+
+        <h2>Current Events</h2>
+
+        <div class="event-grid">
+
+            <article class="event-card">
+
+                <h3>Business Networking Meeting</h3>
+
+                <p>
+                    Meet local entrepreneurs and business leaders
+                    and build valuable professional connections.
+                </p>
+
+                <p>
+                    <strong>Date:</strong>
+                    September 20, 2026
+                </p>
+
+            </article>
+
+
+            <article class="event-card">
+
+                <h3>Small Business Workshop</h3>
+
+                <p>
+                    Learn practical strategies for improving
+                    your business operations and growth.
+                </p>
+
+                <p>
+                    <strong>Date:</strong>
+                    September 27, 2026
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- WEATHER -->
+    <section class="home-section weather">
+
+        <h2>Abia State Weather</h2>
+
+        <div id="current-weather"
+             class="current-weather">
+
+            <p>Loading current weather...</p>
+
+        </div>
+
+        <h3>Three-Day Forecast</h3>
+
+        <div id="forecast"
+             class="forecast-grid">
+
+            <p>Loading forecast...</p>
+
+        </div>
+
+    </section>
+
+
+    <!-- SPOTLIGHTS -->
+    <section class="home-section">
+
+        <h2>Business Spotlights</h2>
+
+        <div id="spotlights"
+             class="spotlight-grid">
+
+            <p>Loading business spotlights...</p>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-content">
+
+        <div>
+
+            <h2>Abia Business Chamber</h2>
+
+            <p>
+                Chamber House<br>
+                Umuahia, Abia State<br>
+                Nigeria
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h2>Contact</h2>
+
+            <p>
+                Email:
+                info@abiabusinesschamber.org
+            </p>
+
+            <p>
+                Phone:
+                +234 800 000 0000
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h2>Development</h2>
+
+            <p>
+                Solomon Ginikachukwu
+            </p>
+
+            <p>
+                WDD 231
+            </p>
+
+            <p>
+                Last Modification:
+                <span id="last-modified"></span>
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        <p>
+            © <span id="current-year"></span>
+            Abia Business Chamber
+        </p>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
