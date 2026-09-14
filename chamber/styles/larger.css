@@ -1,0 +1,60 @@
+@media only screen and (min-width: 32rem) {
+
+    .header-container {
+        padding: 1.2rem 0;
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        background: transparent;
+    }
+
+    nav a {
+        padding: .7rem 1rem;
+        border-radius: 4px;
+    }
+
+    .page-heading {
+        padding: 4rem 0;
+    }
+
+    .page-heading h1 {
+        font-size: 3rem;
+    }
+
+    .members-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (min-width: 60rem) {
+
+    .members-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .member-card img {
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width: 32rem) {
+
+    .members-grid.list-view .member-card {
+        grid-template-columns: 2fr 1fr 1fr;
+        align-items: center;
+    }
+
+    .members-grid.list-view .member-card img {
+        display: none;
+    }
+}

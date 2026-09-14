@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Abia Business Chamber directory featuring local businesses and organizations in Abia State, Nigeria.">
+
+    <meta name="author"
+          content="Solomon Ginikachukwu">
+
+    <title>Abia Business Chamber | Business Directory</title>
+
+    <meta property="og:title"
+          content="Abia Business Chamber | Business Directory">
+
+    <meta property="og:description"
+          content="Explore businesses and organizations that belong to the Abia Business Chamber.">
+
+    <meta property="og:image"
+          content="https://sologinika.github.io/wdd231/chamber/images/chamber-logo.jpg">
+
+    <meta property="og:url"
+          content="https://sologinika.github.io/wdd231/chamber/directory.html">
+
+    <meta property="og:type"
+          content="website">
+
+    <link rel="icon"
+          href="images/favicon.ico">
+
+    <link rel="stylesheet"
+          href="css/normalize.css">
+
+    <link rel="stylesheet"
+          href="css/small.css">
+
+    <link rel="stylesheet"
+          href="css/larger.css">
+
+    <script src="js/directory.js"
+            defer></script>
+</head>
+
+<body>
+
+<header>
+
+    <div class="header-container">
+
+        <a class="logo-link" href="directory.html">
+            <img src="images/chamber-logo.jpg"
+                 alt="Abia Business Chamber logo">
+            <span>
+                <strong>Abia Business</strong>
+                <small>Chamber of Commerce</small>
+            </span>
+        </a>
+
+        <button id="menu-button"
+                aria-label="Open navigation menu"
+                aria-expanded="false">
+            ☰
+        </button>
+
+        <nav id="nav-menu">
+            <a href="directory.html"
+               class="active">
+                Directory
+            </a>
+
+            <a href="#">
+                Home
+            </a>
+
+            <a href="#">
+                Discover
+            </a>
+
+            <a href="#">
+                Join
+            </a>
+        </nav>
+
+    </div>
+
+</header>
+
+<main>
+
+    <section class="page-heading">
+
+        <h1>Business Directory</h1>
+
+        <p>
+            Discover businesses and organizations
+            serving the Abia community.
+        </p>
+
+    </section>
+
+    <section class="directory-section">
+
+        <div class="view-controls">
+
+            <button id="grid-button"
+                    class="active">
+                ▦ Grid
+            </button>
+
+            <button id="list-button">
+                ☰ List
+            </button>
+
+        </div>
+
+        <div id="members"
+             class="members-grid">
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <div class="footer-content">
+
+        <div>
+            <h2>Abia Business Chamber</h2>
+
+            <p>
+                Chamber House<br>
+                Umuahia, Abia State<br>
+                Nigeria
+            </p>
+        </div>
+
+        <div>
+            <h2>Contact</h2>
+
+            <p>
+                Email:
+                info@abiabusinesschamber.org
+            </p>
+
+            <p>
+                Phone:
+                +234 800 000 0000
+            </p>
+        </div>
+
+        <div>
+            <h2>Development</h2>
+
+            <p>
+                Solomon Ginikachukwu
+            </p>
+
+            <p>
+                WDD 231
+            </p>
+
+            <p>
+                Last Modification:
+                <span id="last-modified"></span>
+            </p>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+
+        <p>
+            © <span id="current-year"></span>
+            Abia Business Chamber
+        </p>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
