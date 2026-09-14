@@ -5,7 +5,7 @@
     "phone": "+234 803 111 2233",
     "website": "https://example.com",
     "image": "eastern.png",
-    "membership": 3,
+    "membership": 1,
     "category": "Technology",
     "description": "Digital solutions and technology services for businesses."
   },
@@ -15,7 +15,7 @@
     "phone": "+234 806 222 3344",
     "website": "https://example.com",
     "image": "ariara.png",
-    "membership": 3,
+    "membership": 2,
     "category": "Manufacturing",
     "description": "Quality locally manufactured leather products."
   },
@@ -25,7 +25,7 @@
     "phone": "+234 805 333 4455",
     "website": "https://example.com",
     "image": "umuahia.png",
-    "membership": 2,
+    "membership": 3,
     "category": "Professional Services",
     "description": "Business support, printing, documentation and professional services."
   },
@@ -35,7 +35,7 @@
     "phone": "+234 807 444 5566",
     "website": "https://example.com",
     "image": "health.png",
-    "membership": 2,
+    "membership": 4,
     "category": "Hospitality",
     "description": "Accommodation, conferences and hospitality services."
   },
@@ -45,7 +45,7 @@
     "phone": "+234 809 555 6677",
     "website": "https://example.com",
     "image": "umunze.png",
-    "membership": 1,
+    "membership": 5,
     "category": "Fashion",
     "description": "Fashion design, clothing and locally produced garments."
   },
@@ -55,7 +55,7 @@
     "phone": "+234 810 666 7788",
     "website": "https://example.com",
     "image": "fresh.png",
-    "membership": 1,
+    "membership": 6,
     "category": "Food",
     "description": "Fresh food distribution and agricultural products."
   },
@@ -65,7 +65,7 @@
     "phone": "+234 811 777 8899",
     "website": "https://example.com",
     "image": "ginsolo.png",
-    "membership": 2,
+    "membership": 7,
     "category": "Consulting",
     "description": "Business consulting and strategic advisory services."
   },
@@ -75,7 +75,7 @@
     "phone": "+234 812 888 9900",
     "website": "https://example.com",
     "image": "abiatech.png",
-    "membership": 3,
+    "membership": 8,
     "category": "Technology",
     "description": "developing  and maintaining tech services."
   }
