@@ -17,7 +17,7 @@ body {
 
 header {
     background: var(--blue);
-    color: var(--white);
+    color: var(--blue);
 }
 
 .header-container {
