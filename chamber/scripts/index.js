@@ -1,4 +1,4 @@
-const API_KEY = "PASTE_YOUR_OPENWEATHERMAP_KEY_HERE";
+const API_KEY = "b7c41390266e360e37597b72e0723f75";
 const LOCATION = { lat: 5.532, lon: 7.486 };
 
 const menuButton = document.querySelector("#menu-button");
@@ -10,6 +10,9 @@ menuButton?.addEventListener("click", () => {
   menuButton.querySelector("span").textContent = isOpen ? "×" : "☰";
 });
 
+members.filter(({ membership_level }) =>
+  ["Gold", "Silver"].includes(membership_level)
+);
 document.querySelector("#current-year").textContent = new Date().getFullYear();
 document.querySelector("#last-modified").textContent = document.lastModified;
 
