@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Join the Abia Business Chamber and grow your business through connections, training, and visibility.">
+  <meta name="theme-color" content="#123b35">
+  <title>Join | Abia Business Chamber</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Abia Business Chamber home"><span class="brand-mark" aria-hidden="true">A</span><span>Abia Business Chamber<small>Business grows together</small></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a><a href="discover.html">Discover</a><a href="directory.html">Directory</a><a href="join.html" aria-current="page">Join</a>
+    </nav>
+  </header>
+  <main class="page-shell">
+    <div class="page-heading"><p class="eyebrow">Membership</p><h1>Make room for growth.</h1><p>Connect with local businesses, build visibility, and find new opportunities across Enugu State.</p></div>
+    <div class="join-layout">
+      <form class="join-form" action="thankyou.html" method="get">
+        <h2>Tell us about yourself</h2><p class="form-intro">Fields marked required need to be completed before you submit.</p>
+        <label>First name <span aria-hidden="true">*</span><input type="text" name="firstName" title="Enter your first name" autocomplete="given-name" required></label>
+        <label>Last name <span aria-hidden="true">*</span><input type="text" name="lastName" title="Enter your last name" autocomplete="family-name" required></label>
+        <label>Organizational title<input type="text" name="organizationTitle" title="Your title within the organization; use at least seven letters, spaces, or hyphens" autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}" placeholder="e.g. Managing Director"></label>
+        <label>Email address <span aria-hidden="true">*</span><input type="email" name="email" title="Enter a valid email address" autocomplete="email" placeholder="name@example.com" required></label>
+        <label>Mobile phone <span aria-hidden="true">*</span><input type="tel" name="phone" title="Enter your mobile phone number" autocomplete="tel" required></label>
+        <label>Business or organization name <span aria-hidden="true">*</span><input type="text" name="business" title="Enter your business or organization name" autocomplete="organization" required></label>
+        <label>Membership level<select name="membership" title="Choose a membership level" required><option value="" selected disabled>Select a membership</option><option value="np">NP Membership</option><option value="bronze">Bronze Membership</option><option value="silver">Silver Membership</option><option value="gold">Gold Membership</option></select></label>
+        <label>Business or organization description<textarea name="description" title="Describe your business or organization" rows="4"></textarea></label>
+        <input type="hidden" name="timestamp" id="timestamp">
+        <button class="submit-button" type="submit">Send membership application</button>
+      </form>
+      <aside class="membership-side" aria-label="Membership levels">
+        <h2>Choose your level</h2><p class="side-intro">Every level connects you with the local business community.</p>
+        <section class="level-card level-np"><div><span class="level-kicker">Community</span><h3>NP Membership</h3><p>For nonprofit organizations · No fee</p></div><a href="#benefits-np" data-dialog="benefits-np">Explore benefits <span aria-hidden="true">↗</span></a></section>
+        <section class="level-card level-bronze"><div><span class="level-kicker">Connect</span><h3>Bronze</h3><p>Essential resources for your next step</p></div><a href="#benefits-bronze" data-dialog="benefits-bronze">Explore benefits <span aria-hidden="true">↗</span></a></section>
+        <section class="level-card level-silver"><div><span class="level-kicker">Grow</span><h3>Silver</h3><p>More visibility and member savings</p></div><a href="#benefits-silver" data-dialog="benefits-silver">Explore benefits <span aria-hidden="true">↗</span></a></section>
+        <section class="level-card level-gold"><div><span class="level-kicker">Lead</span><h3>Gold</h3><p>Premium access and business spotlight</p></div><a href="#benefits-gold" data-dialog="benefits-gold">Explore benefits <span aria-hidden="true">↗</span></a></section>
+      </aside>
+    </div>
+  </main>
+  <footer class="site-footer"><div><a class="footer-brand" href="index.html">Abia Business chambers
+     Chamber</a><p>Supporting enterprise and stronger communities in South Eastern Nigeria.</p></div><address>Enugu, Enugu State, Nigeria<br><a href="mailto:hello@enuguchamber.ng">hello@enuguchamber.ng</a></address><p class="copyright">© <span id="year"></span> Abia Business Chamber</p></footer>
+  <dialog id="benefits-np" aria-labelledby="benefits-np-title"><button class="dialog-close" type="button" aria-label="Close benefits">×</button><p class="eyebrow">Membership benefits</p><h2 id="benefits-np-title">NP Membership</h2><p>No fee for qualifying nonprofit organizations.</p><ul><li>Member networking events</li><li>Nonprofit workshops and training</li><li>Community initiative listings</li></ul></dialog>
+  <dialog id="benefits-bronze" aria-labelledby="benefits-bronze-title"><button class="dialog-close" type="button" aria-label="Close benefits">×</button><p class="eyebrow">Membership benefits</p><h2 id="benefits-bronze-title">Bronze Membership</h2><p>Practical support for emerging local businesses.</p><ul><li>Member networking events</li><li>Business skills training</li><li>Member directory listing</li></ul></dialog>
+  <dialog id="benefits-silver" aria-labelledby="benefits-silver-title"><button class="dialog-close" type="button" aria-label="Close benefits">×</button><p class="eyebrow">Membership benefits</p><h2 id="benefits-silver-title">Silver Membership</h2><p>More ways to learn, connect, and get noticed.</p><ul><li>All Bronze benefits</li><li>Discounts on selected chamber events</li><li>Priority directory placement and quarterly promotion</li></ul></dialog>
+  <dialog id="benefits-gold" aria-labelledby="benefits-gold-title"><button class="dialog-close" type="button" aria-label="Close benefits">×</button><p class="eyebrow">Membership benefits</p><h2 id="benefits-gold-title">Gold Membership</h2><p>Premium visibility and access for established leaders.</p><ul><li>All Silver benefits</li><li>Business spotlight on the chamber home page</li><li>Invitations to exclusive leadership events</li></ul></dialog>
+</body>
+</ht
