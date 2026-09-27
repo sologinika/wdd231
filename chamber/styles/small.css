@@ -141,7 +141,7 @@ nav a[aria-current="page"] {
   position: relative;
   min-height: 360px;
   overflow: hidden;
-  background: var(ffffff);
+  background: var(--ffffff);
 }
 
 .hero > img {
