@@ -9,30 +9,30 @@
 export const discoverItems = [
   {
     id: 1,
-    name: "Parque Guzmán",
-    address: "Central San Miguel, San Miguel, El Salvador",
+    name: "AbiaTech",
+    address: "No 56 Clifford Road, Aba, Abia State",
     description:
-      "Parque Guzmán is a central public gathering space in San Miguel. Visitors can enjoy the surrounding city atmosphere, take a walk, and explore nearby shops and local businesses.",
+      "AbiaTech is a public gathering space in Aba. Where Visitors come and do most internet activity which includes printing, photography, and other digital services,",
     image: "images/abiatech.webp",
-    alt: "Public park and surrounding buildings in San Miguel"
+    alt: "AbiaTech is a place where people gather to print, Snap and all internet activity in the city of Aba, Abia State, Nigeria"
   },
   {
     id: 2,
-    name: "Catedral Basílica de San Miguel",
-    address: "Historic city centre, San Miguel, El Salvador",
+    name: "Eastern Palm Business",
+    address: "B46 Ukwungwangwu, Uturu, Abia State",
     description:
-      "This prominent religious landmark is one of the best-known features of San Miguel's city centre. Its architecture and location make it an important stop for visitors exploring the city.",
-    image: "images/san-miguel-cathedral.webp",
-    alt: "Facade of the cathedral in San Miguel"
+      "Eastern Palm Business is an agricultural enterprise specialising in the production, processing, packaging, and distribution of palm oil",
+    image: "images/eastern.webp",
+    alt: "Eastern Palm Business is a palm oil production company engaged in the processing and supply of palm oil for household, commercial, and industrial use."
   },
   {
     id: 3,
-    name: "Volcán Chaparrastique",
-    address: "San Miguel Department, El Salvador",
+    name: "Abia Health Is Wealth",
+    address: "No 70 Umungasi Road, Aba, Abia State",
     description:
-      "Also known as San Miguel Volcano, Chaparrastique is a striking natural landmark in eastern El Salvador. Its volcanic landscape is important to the region, although access may be restricted when volcanic activity creates a safety risk.",
-    image: "images/chaparrastique-volcano.webp",
-    alt: "Chaparrastique volcano rising above the surrounding landscape"
+      "Abia Health Is Wealth is a health-focused initiative aimed at promoting healthy living, disease prevention, and improved access to health information and services among residents of Abia State, Nigeria..",
+    image: "images/health.webp",
+    alt: "Abia Health Is Wealth is a health-focused initiative aimed at promoting healthy living, disease prevention, and improved access to health information and services among residents of Abia State, Nigeria."
   },
   {
     id: 4,
@@ -40,7 +40,7 @@ export const discoverItems = [
     address: "San Miguel, El Salvador",
     description:
       "The Regional Museum of the East presents aspects of the history and cultural heritage of eastern El Salvador. It provides visitors with an opportunity to learn about the people and traditions of the region.",
-    image: "images/museo-oriente.webp",
+    image: "images/ariaria.webp",
     alt: "Museum building in eastern El Salvador"
   },
   {
