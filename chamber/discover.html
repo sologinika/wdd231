@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Discover Abia Business Chamber of commerce   </title>
+
+  <meta
+    name="description"
+    content="Discover the attractions, culture, natural landmarks, and places of interest in Abia Business Chamber, Abia State."
+  >
+  <meta name="author" content="Solomon Ginikachukwu">
+
+  <meta property="og:title" content="Discover Abia Business Chamber of commerce">
+  <meta
+    property="og:description"
+    content="Explore places of interest in Abia State and its surrounding region."
+  >
+  <meta property="og:type" content="website">
+
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/medium.css">
+
+  <script type="module" src="js/discover.js"></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Abia Business Chamber of commerce" Home>
+      <span class="brand-mark" aria-hidden="true">SM</span>
+      <span class="brand-text">
+        <strong>Abia</strong>
+        <span>Business Chamber of commerce</span>
+      </span>
+    </a>
+
+    <button
+      class="menu-toggle"
+      id="menu-toggle"
+      type="button"
+      aria-label="Open navigation menu"
+      aria-expanded="false"
+      aria-controls="primary-nav"
+    >
+      <span aria-hidden="true">☰</span>
+    </button>
+
+    <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="directory.html">Directory</a>
+      <a href="join.html">Join</a>
+      <a href="discover.html" aria-current="page">Discover</a>
+    </nav>
+  </header>
+
+  <main class="discover-main">
+    <section class="page-heading" aria-labelledby="page-title">
+      <p class="eyebrow">Explore our community</p>
+      <h1 id="page-title">Discover Abia BusinessChamber of commerce</h1>
+      <p>
+        Explore the landmarks, culture, natural attractions, and
+        destinations that make Abia State and its surrounding region
+        a place to visit, live, and do business.
+      </p>
+    </section>
+
+    <aside
+      id="visit-message"
+      class="visit-message"
+      aria-live="polite"
+      aria-atomic="true"
+    >
+      <p>Welcome! Let us know if you have any questions.</p>
+    </aside>
+
+    <section class="discover-section" aria-labelledby="places-title">
+      <div class="section-heading">
+        <h2 id="places-title">Places of Interest</h2>
+        <p>Discover eight places to explore in Abia State and its surrounding region.</p>
+      </div>
+
+      <div id="discover-grid" class="discover-grid">
+        <p class="loading-message">Loading places of interest...</p>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="place-dialog" class="place-dialog">
+    <div class="dialog-content">
+      <button
+        id="close-dialog"
+        class="close-dialog"
+        type="button"
+        aria-label="Close details"
+      >✕</button>
+      <h2 id="dialog-title">Place details</h2>
+      <p id="dialog-address" class="dialog-address"></p>
+      <p id="dialog-description"></p>
+      <a
+        id="dialog-map-link"
+        class="map-link"
+        href="https://www.google.com/maps"
+        target="_blank"
+        rel="noopener noreferrer"
+      >View on Google Maps</a>
+    </div>
+  </dialog>
+
+  <footer class="site-footer">
+    <div class="footer-info">
+      <h2>Abia Business Chamber of commerce</h2>
+      <address>
+        #23 Owerri road Aba<br>
+        <a href="mailto:info@abiatech.org">info@abiatech.org</a>
+      </address>
+    </div>
+
+    <div class="footer-meta">
+      <p>
+         <span id="current-year"></span>
+        Abia Business Chamber of commerce. All rights reserved.
+      </p>
+      <p>WDD 231 | Web Frontend Development I</p>
+      <p>Last modified: <span id="last-modified"></span></p>
+    </div>
+  </footer>
+</body>
+</html>

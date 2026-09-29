@@ -1,0 +1,138 @@
+
+/* =========================================
+   WDD 231 - Responsive Discover Layouts
+   medium.css
+========================================= */
+
+/* MEDIUM SCREENS: 641px–1024px */
+
+@media screen and (min-width: 641px) {
+  .menu-toggle {
+    display: none;
+  }
+
+  .site-header {
+    flex-wrap: nowrap;
+  }
+
+  .primary-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: auto;
+  }
+
+  .discover-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-areas:
+      "place1 place1"
+      "place2 place3"
+      "place4 place4"
+      "place5 place6"
+      "place7 place7"
+      "place8 place8";
+    gap: 1.5rem;
+  }
+
+  .place-card:nth-child(1),
+  .place-card:nth-child(4),
+  .place-card:nth-child(7),
+  .place-card:nth-child(8) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: start;
+  }
+
+  .place-card:nth-child(1) h2,
+  .place-card:nth-child(4) h2,
+  .place-card:nth-child(7) h2,
+  .place-card:nth-child(8) h2 {
+    grid-column: 1 / -1;
+  }
+
+  .place-card:nth-child(1) figure,
+  .place-card:nth-child(4) figure,
+  .place-card:nth-child(7) figure,
+  .place-card:nth-child(8) figure {
+    grid-column: 1;
+    grid-row: 2 / span 3;
+  }
+
+  .place-card:nth-child(1) img,
+  .place-card:nth-child(4) img,
+  .place-card:nth-child(7) img,
+  .place-card:nth-child(8) img {
+    height: 100%;
+    min-height: 200px;
+  }
+
+  .place-card:nth-child(1) address,
+  .place-card:nth-child(4) address,
+  .place-card:nth-child(7) address,
+  .place-card:nth-child(8) address,
+  .place-card:nth-child(1) p,
+  .place-card:nth-child(4) p,
+  .place-card:nth-child(7) p,
+  .place-card:nth-child(8) p,
+  .place-card:nth-child(1) button,
+  .place-card:nth-child(4) button,
+  .place-card:nth-child(7) button,
+  .place-card:nth-child(8) button {
+    grid-column: 2;
+  }
+
+  .site-footer {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+
+  /* Image effect is enabled only outside mobile view. */
+
+  .place-card img {
+    transition: filter 200ms ease, transform 200ms ease;
+  }
+
+  .place-card figure:hover img {
+    filter: saturate(1.15) contrast(1.05);
+    transform: scale(1.04);
+  }
+}
+
+
+/* LARGE SCREENS: 1025px and above */
+
+@media screen and (min-width: 1025px) {
+  .discover-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-areas:
+      "place1 place1 place2"
+      "place3 place4 place4"
+      "place5 place6 place7"
+      "place8 place8 place7";
+    gap: 1.75rem;
+    align-items: stretch;
+  }
+
+  .place-card:nth-child(1),
+  .place-card:nth-child(4),
+  .place-card:nth-child(7),
+  .place-card:nth-child(8) {
+    display: block;
+  }
+
+  .place-card:nth-child(1) img,
+  .place-card:nth-child(4) img,
+  .place-card:nth-child(7) img,
+  .place-card:nth-child(8) img {
+    height: 200px;
+  }
+
+  .page-heading {
+    margin-block: 3rem;
+  }
+
+  .place-card:hover {
+    box-shadow: 0 8px 24px rgb(15 40 60 / 16%);
+  }
+}
