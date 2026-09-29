@@ -13,7 +13,7 @@ export const discoverItems = [
     address: "Central San Miguel, San Miguel, El Salvador",
     description:
       "Parque Guzmán is a central public gathering space in San Miguel. Visitors can enjoy the surrounding city atmosphere, take a walk, and explore nearby shops and local businesses.",
-    image: "images/parque-guzman.webp",
+    image: "images/abiatech.webp",
     alt: "Public park and surrounding buildings in San Miguel"
   },
   {
