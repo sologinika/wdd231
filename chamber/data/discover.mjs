@@ -48,7 +48,7 @@ export const discoverItems = [
     name: "Abia Fresh Food",
     address: "Micheal Okpara University of agriculture Umudike, Umuahia Abia State",
     description:
-      "Laguna de Olomega is a freshwater lake in eastern El Salvador. Its natural scenery and aquatic environment make the surrounding area of interest to visitors who appreciate nature and outdoor activities.",
+      "Abia Fresh Foods is a local food processing company that specializes in producing and distributing fresh, healthy food options to residents of Abia State.",
     image: "images/fresh.webp",
     alt: "Freshwater lake surrounded by green vegetation"
   },

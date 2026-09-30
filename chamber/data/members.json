@@ -19,7 +19,7 @@
     "name": "Eastern Hospitality Hotel",
     "address": "22 Mission Hill, Umuahia, Abia State",
     "phone": "+234 807 444 5566",
-    "website": "https://example.com",
+    "website": "https://easternhospitality.com",
     "image": "health.webp",
     "membership_level": "Gold"
   },
@@ -27,7 +27,7 @@
     "name": "Abia Fresh Foods",
     "address": "6 Market Road, Umuahia, Abia State",
     "phone": "+234 810 666 7788",
-    "website": "https://example.com",
+    "website": "https://abafreshfoods.com",
     "image": "fresh.webp",
     "membership_level": "Silver"
   }
