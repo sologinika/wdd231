@@ -36,20 +36,20 @@ export const discoverItems = [
   },
   {
     id: 4,
-    name: "Museo Regional de Oriente",
-    address: "San Miguel, El Salvador",
+    name: "Araaria Fashion Hub",
+    address: "Ariaria Main Market,Aba, Abia State",
     description:
-      "The Regional Museum of the East presents aspects of the history and cultural heritage of eastern El Salvador. It provides visitors with an opportunity to learn about the people and traditions of the region.",
+      "Ariaria Main Market is one of the largest commercial markets in Aba, Abia State, Nigeria. It is widely known for the production, sale, and distribution of locally made goods, including shoes, bags, clothing, leather products, and other fashion accessories..",
     image: "images/ariaria.webp",
-    alt: "Museum building in eastern El Salvador"
+    alt: "Ariaria Main Market plays an important role in promoting local manufacturing, creating employment opportunities, supporting small and medium-sized enterprises, and contributing to the economic growth of Abia State."
   },
   {
     id: 5,
-    name: "Laguna de Olomega",
-    address: "Olomega area, eastern El Salvador",
+    name: "Abia Fresh Food",
+    address: "Micheal Okpara University of agriculture Umudike, Umuahia Abia State",
     description:
       "Laguna de Olomega is a freshwater lake in eastern El Salvador. Its natural scenery and aquatic environment make the surrounding area of interest to visitors who appreciate nature and outdoor activities.",
-    image: "images/laguna-olomega.webp",
+    image: "images/fresh.webp",
     alt: "Freshwater lake surrounded by green vegetation"
   },
   {
