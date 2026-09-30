@@ -4,7 +4,7 @@
     "address": "15 Aba Road, Umuahia, Abia State",
     "phone": "+234 803 111 2233",
     "website": "https://example.com",
-    "image": "eastern.png",
+    "image": "eastern.webp",
     "membership_level": "Gold"
   },
   {
@@ -12,7 +12,7 @@
     "address": "12 Ariaria Market Road, Aba, Abia State",
     "phone": "+234 806 222 3344",
     "website": "https://example.com",
-    "image": "ariara.png",
+    "image": "ariara.webp",
     "membership_level": "Silver"
   },
   {
@@ -20,7 +20,7 @@
     "address": "22 Mission Hill, Umuahia, Abia State",
     "phone": "+234 807 444 5566",
     "website": "https://example.com",
-    "image": "health.png",
+    "image": "health.webp",
     "membership_level": "Gold"
   },
   {
@@ -28,7 +28,7 @@
     "address": "6 Market Road, Umuahia, Abia State",
     "phone": "+234 810 666 7788",
     "website": "https://example.com",
-    "image": "fresh.png",
+    "image": "fresh.webp",
     "membership_level": "Silver"
   }
 ]

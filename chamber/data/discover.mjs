@@ -54,29 +54,29 @@ export const discoverItems = [
   },
   {
     id: 6,
-    name: "Playa El Cuco",
-    address: "El Cuco, San Miguel Department, El Salvador",
+    name: "Ginsolo Ventures",
+    address: "No 54 Umuelem street Umuahia, Abia State",
     description:
-      "Playa El Cuco is a Pacific coast destination known for its broad sandy shoreline. Visitors come to enjoy the coastal scenery, relax by the sea, and experience the local tourism businesses.",
-    image: "images/playa-el-cuco.webp",
-    alt: "Sandy beach and Pacific Ocean at El Cuco"
+      "Ginsolo Ventures is a granite haulage company that operates in Abia State.",
+    image: "images/hero.webp",
+    alt: "Ginsolo Ventures office"
   },
   {
     id: 7,
-    name: "Playa Las Flores",
-    address: "Las Flores, near El Cuco, El Salvador",
+    name: "Umunze Fornitures",
+    address: "No 123 Umunze Road, Umuahia, Abia State",
     description:
-      "Playa Las Flores is a coastal destination near El Cuco associated with surfing and beach tourism. The area attracts visitors interested in ocean views, surfing conditions, and local hospitality.",
-    image: "images/playa-las-flores.webp",
-    alt: "Pacific coastline at Playa Las Flores"
+      "Umunze Fornitures is a local furniture store that specializes in providing high-quality wooden furniture to residents of Abia State.",
+    image: "images/umunze.webp",
+    alt: "Umunze Fornitures store"
   },
   {
     id: 8,
-    name: "Teatro Nacional Francisco Gavidia",
-    address: "San Miguel, El Salvador",
+    name: "Umuahia Business Center",
+    address: "No 45 Olokoro Street, Umuahia, Abia State",
     description:
-      "The National Theatre Francisco Gavidia is associated with the cultural life of San Miguel. The theatre and local performing arts contribute to the city's cultural identity and visitor experience.",
-    image: "images/teatro-gavidia.webp",
-    alt: "Theatre building in San Miguel"
+      "The Umuahia Business Center is a hub for local entrepreneurs and professionals, providing a space for networking, collaboration, and business development activities.",
+    image: "images/umuahia.webp",
+    alt: "Umuahia Business Center building"
   }
 ];
