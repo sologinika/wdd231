@@ -6,7 +6,7 @@
  * Data for the eight places of interest.
  */
 
-export const discoverItems = [
+export const places = [
   {
     id: 1,
     name: "AbiaTech",
