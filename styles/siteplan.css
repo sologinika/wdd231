@@ -1,0 +1,369 @@
+/* =========================================
+   ABIA BUSINESS HUB - SITE PLAN
+   WDD231
+   ========================================= */
+
+/* ---------- Color Variables ---------- */
+
+:root {
+    --primary-color: #0b3954;
+    --secondary-color: #087e8b;
+    --accent-color: #f4d35e;
+    --background-color: #f7f9fa;
+    --white-color: #ffffff;
+    --text-color: #222222;
+    --border-color: #c9d3d8;
+
+    --heading-font: "Montserrat", sans-serif;
+    --body-font: "Open Sans", sans-serif;
+}
+
+
+/* ---------- General Styles ---------- */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--body-font);
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--heading-font);
+    line-height: 1.3;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.4rem;
+}
+
+h2 {
+    color: var(--primary-color);
+    border-bottom: 3px solid var(--accent-color);
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+h3 {
+    color: var(--secondary-color);
+}
+
+p {
+    max-width: 900px;
+}
+
+a {
+    color: var(--secondary-color);
+}
+
+
+/* ---------- Header ---------- */
+
+header {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    text-align: center;
+    padding: 2.5rem 1rem;
+}
+
+.header-content {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.site-label {
+    margin: 0 0 0.5rem;
+    color: var(--accent-color);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.tagline {
+    margin: 0.75rem auto 0;
+    color: var(--white-color);
+}
+
+
+/* ---------- Navigation ---------- */
+
+nav {
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.25rem;
+    padding: 0.75rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav a {
+    color: var(--white-color);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.65rem 1rem;
+    border-radius: 4px;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+}
+
+
+/* ---------- Main Content ---------- */
+
+main {
+    width: min(1100px, 92%);
+    margin: 2rem auto;
+}
+
+section {
+    background-color: var(--white-color);
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 8px;
+    border-left: 5px solid var(--secondary-color);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+section:target {
+    scroll-margin-top: 80px;
+}
+
+
+/* ---------- Scenarios ---------- */
+
+.scenario-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.scenario-list article {
+    border: 1px solid var(--border-color);
+    border-top: 4px solid var(--secondary-color);
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+.scenario-list h3 {
+    margin-top: 0;
+}
+
+
+/* ---------- Color Scheme ---------- */
+
+.color-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.color-card {
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: var(--white-color);
+}
+
+.color-card h3,
+.color-card p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.color-swatch {
+    height: 80px;
+}
+
+.primary .color-swatch {
+    background-color: var(--primary-color);
+}
+
+.secondary .color-swatch {
+    background-color: var(--secondary-color);
+}
+
+.accent .color-swatch {
+    background-color: var(--accent-color);
+}
+
+.light .color-swatch {
+    background-color: var(--background-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.color-example {
+    margin-top: 1.5rem;
+    padding: 1.25rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 6px;
+}
+
+.color-example h3 {
+    color: var(--accent-color);
+}
+
+
+/* ---------- Typography ---------- */
+
+.font-example {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.font-example article {
+    border: 1px solid var(--border-color);
+    padding: 1.5rem;
+    border-radius: 6px;
+}
+
+.montserrat-example {
+    font-family: var(--heading-font);
+}
+
+.opensans-example {
+    font-family: var(--body-font);
+}
+
+
+/* ---------- Wireframes ---------- */
+
+.important-note {
+    background-color: #fff8d6;
+    border-left: 5px solid var(--accent-color);
+    padding: 1rem;
+}
+
+.wireframe {
+    background-color: #ffffff;
+    border: 3px solid #000000;
+    padding: 1rem;
+    margin: 1rem 0 2rem;
+}
+
+.wf-box {
+    border: 2px solid #000000;
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.large-box {
+    min-height: 150px;
+}
+
+.mobile-wireframe {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desktop-wireframe {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desktop-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.desktop-columns .wf-box {
+    min-height: 120px;
+}
+
+.desktop-columns .large-content {
+    min-height: 180px;
+}
+
+.footer-box {
+    min-height: 80px;
+}
+
+
+/* ---------- Testing ---------- */
+
+#testing li {
+    margin-bottom: 0.75rem;
+}
+
+
+/* ---------- Footer ---------- */
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+footer p {
+    margin: 0.25rem auto;
+}
+
+
+/* ---------- Responsive Design ---------- */
+
+@media screen and (max-width: 700px) {
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    section {
+        padding: 1.25rem;
+    }
+
+    nav {
+        position: static;
+    }
+
+    nav a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .scenario-list,
+    .color-grid,
+    .font-example {
+        grid-template-columns: 1fr;
+    }
+
+    .desktop-columns {
+        grid-template-columns: 1fr;
+    }
+
+    .desktop-wireframe {
+        width: 100%;
+    }
+
+}
