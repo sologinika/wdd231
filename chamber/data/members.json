@@ -3,7 +3,7 @@
     "name": "Abia Digital Solutions",
     "address": "15 Aba Road, Umuahia, Abia State",
     "phone": "+234 803 111 2233",
-    "website": "https://example.com",
+    "website": "https://abidigital.com",
     "image": "eastern.webp",
     "membership_level": "Gold"
   },
@@ -30,5 +30,30 @@
     "website": "https://abafreshfoods.com",
     "image": "fresh.webp",
     "membership_level": "Silver"
+  },
+  {
+    "name": "Abia Health Plus",
+    "address": "22 Mission Hill, Umuahia, Abia State",
+    "phone": "+234 807 444 5566",
+    "website": "https://abiahealthplus.com",
+    "image": "health.webp",
+    "membership_level": "Gold"
+  },
+  {
+    "name": "GinSolo Ventures",
+    "address": "6 Market Road, Umuahia, Abia State",
+    "phone": "+234 810 666 7788",
+    "website": "https://ginsolo.com",
+    "image": "ginsolo.webp",
+    "membership_level": "Silver"
+  }
+
+  ,{
+    "name": "Umunze Fornitures",
+    "address": "59 Ngwa Road, Aba, Abia State",
+    "phone": "+234 803 111 2233",
+    "website": "https://umunzefornitures.com",
+    "image": "umunze.webp",
+    "membership_level": "Gold"
   }
 ]
