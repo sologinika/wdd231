@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "name": "Granite Haulage",
+        "category": "granite",
+        "material": "Crushed Granite",
+        "application": "Building foundations",
+        "capacity": "10 - 30 tonnes",
+        "coverage": "South East Nigeria",
+        "description": "Transportation of crushed granite from approved material sources to construction sites."
+    },
+    {
+        "id": 2,
+        "name": "Stone Base Delivery",
+        "category": "granite",
+        "material": "Stone Base",
+        "application": "Road construction",
+        "capacity": "10 - 30 tonnes",
+        "coverage": "South East Nigeria",
+        "description": "Stone base transportation for road and civil engineering projects."
+    },
+    {
+        "id": 3,
+        "name": "Aggregate Transportation",
+        "category": "aggregates",
+        "material": "Construction Aggregates",
+        "application": "Concrete production",
+        "capacity": "10 - 30 tonnes",
+        "coverage": "South East Nigeria",
+        "description": "Reliable movement of aggregate materials for construction projects."
+    },
+    {
+        "id": 4,
+        "name": "Sharp Sand Haulage",
+        "category": "sand",
+        "material": "Sharp Sand",
+        "application": "Concrete and block work",
+        "capacity": "10 - 30 tonnes",
+        "coverage": "South East Nigeria",
+        "description": "Sharp sand transportation for residential and commercial construction."
+    },
+    {
+        "id": 5,
+        "name": "Building Sand Delivery",
+        "category": "sand",
+        "material": "Building Sand",
+        "application": "Masonry work",
+        "capacity": "10 - 30 tonnes",
+        "coverage": "South East Nigeria",
+        "description": "Building sand haulage for masonry and general construction work."
+    },
+    {
+        "id": 6,
+        "name": "Laterite Haulage",
+        "category": "laterite",
+        "material": "Laterite",
+        "application": "Site preparation",
+        "capacity": "10 - 30 tonnes",
+        "coverage": "South East Nigeria",
+        "description": "Laterite delivery for filling, leveling and construction site preparation."
+    },
+    {
+        "id": 7,
+        "name": "Laterite Site Filling",
+        "category": "laterite",
+        "material": "Laterite Fill",
+        "application": "Land filling",
+        "capacity": "10 - 30 tonnes",
+        "coverage": "South East Nigeria",
+        "description": "Transportation of laterite required for site filling and ground improvement."
+    },
+    {
+        "id": 8,
+        "name": "Road Material Haulage",
+        "category": "aggregates",
+        "material": "Road Aggregates",
+        "application": "Road construction",
+        "capacity": "10 - 30 tonnes",
+        "coverage": "South East Nigeria",
+        "description": "Haulage support for road construction and maintenance projects."
+    },
+    {
+        "id": 9,
+        "name": "Quarry Material Delivery",
+        "category": "granite",
+        "material": "Quarry Materials",
+        "application": "Civil engineering",
+        "capacity": "10 - 30 tonnes",
+        "coverage": "South East Nigeria",
+        "description": "Movement of quarry materials to infrastructure and building projects."
+    },
+    {
+        "id": 10,
+        "name": "Concrete Aggregate Delivery",
+        "category": "aggregates",
+        "material": "Concrete Aggregates",
+        "application": "Concrete production",
+        "capacity": "10 - 30 tonnes",
+        "coverage": "South East Nigeria",
+        "description": "Aggregate delivery for concrete batching and construction operations."
+    },
+    {
+        "id": 11,
+        "name": "Foundation Material Haulage",
+        "category": "granite",
+        "material": "Foundation Aggregate",
+        "application": "Building foundations",
+        "capacity": "10 - 30 tonnes",
+        "coverage": "South East Nigeria",
+        "description": "Transportation of aggregate materials used in foundation construction."
+    },
+    {
+        "id": 12,
+        "name": "Estate Development Haulage",
+        "category": "aggregates",
+        "material": "Construction Materials",
+        "application": "Estate development",
+        "capacity": "10 - 30 tonnes",
+        "coverage": "South East Nigeria",
+        "description": "Material transportation support for housing and estate development."
+    },
+    {
+        "id": 13,
+        "name": "Commercial Building Haulage",
+        "category": "granite",
+        "material": "Granite and Aggregates",
+        "application": "Commercial construction",
+        "capacity": "10 - 30 tonnes",
+        "coverage": "South East Nigeria",
+        "description": "Haulage services for offices, shops and commercial developments."
+    },
+    {
+        "id": 14,
+        "name": "Drainage Material Delivery",
+        "category": "aggregates",
+        "material": "Granite and Stone",
+        "application": "Drainage construction",
+        "capacity": "10 - 30 tonnes",
+        "coverage": "South East Nigeria",
+        "description": "Transportation of materials required for drainage infrastructure."
+    },
+    {
+        "id": 15,
+        "name": "Industrial Site Haulage",
+        "category": "aggregates",
+        "material": "Industrial Aggregates",
+        "application": "Industrial development",
+        "capacity": "10 - 30 tonnes",
+        "coverage": "South East Nigeria",
+        "description": "Construction material haulage for industrial site development."
+    },
+    {
+        "id": 16,
+        "name": "Interstate Material Delivery",
+        "category": "aggregates",
+        "material": "Construction Materials",
+        "application": "Regional construction",
+        "capacity": "10 - 30 tonnes",
+        "coverage": "South East Nigeria",
+        "description": "Regional transportation of construction materials between project locations."
+    },
+    {
+        "id": 17,
+        "name": "Bulk Granite Delivery",
+        "category": "granite",
+        "material": "Bulk Granite",
+        "application": "Large construction projects",
+        "capacity": "20 - 30 tonnes",
+        "coverage": "South East Nigeria",
+        "description": "Bulk granite transportation for major construction and infrastructure projects."
+    },
+    {
+        "id": 18,
+        "name": "Project-Based Haulage",
+        "category": "aggregates",
+        "material": "Multiple Materials",
+        "application": "Construction projects",
+        "capacity": "Flexible",
+        "coverage": "South East Nigeria",
+        "description": "Flexible haulage arrangements designed around individual construction projects."
+    }
+]

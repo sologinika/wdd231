@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ginsolo Ventures Services | Haulage Solutions</title>
+
+    <meta
+        name="description"
+        content="Explore Ginsolo Ventures granite, sand, laterite and construction material haulage services across South East Nigeria."
+    >
+
+    <meta name="author" content="Solomon Ginikachukwu Alagbaoso">
+
+    <meta property="og:title" content="Ginsolo Ventures Services">
+    <meta
+        property="og:description"
+        content="Construction material and granite haulage services."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/truck_fleet.webp">
+
+    <link rel="icon" href="images/ginsolo.webp">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <script type="module" src="js/services.js"></script>
+
+</head>
+
+<body>
+
+<header class="site-header">
+
+    <a class="logo-link" href="index.html">
+        <img
+            src="images/ginsolo.webp"
+            alt="Ginsolo Ventures logo"
+            width="70"
+            height="70"
+        >
+        <span>Ginsolo Ventures</span>
+    </a>
+
+    <button
+        id="menu-button"
+        class="menu-button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+    >
+        ☰
+    </button>
+
+    <nav id="main-navigation" class="main-navigation">
+
+        <a href="index.html">Home</a>
+
+        <a class="active" href="services.html">
+            Services
+        </a>
+
+        <a href="contact.html">Contact</a>
+
+    </nav>
+
+</header>
+
+
+<main>
+
+    <section class="page-banner">
+
+        <div>
+
+            <p class="eyebrow">Our Services</p>
+
+            <h1>Haulage Solutions for Construction</h1>
+
+            <p>
+                Select a service below to learn more about the material,
+                application and delivery option.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <section class="section">
+
+        <div class="service-toolbar">
+
+            <label for="service-filter">
+                Filter services
+            </label>
+
+            <select id="service-filter">
+                <option value="all">All Services</option>
+                <option value="granite">Granite</option>
+                <option value="sand">Sand</option>
+                <option value="laterite">Laterite</option>
+                <option value="aggregates">Aggregates</option>
+            </select>
+
+        </div>
+
+
+        <div id="services-container" class="service-grid">
+
+            <p class="loading">
+                Loading service information...
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Accessible Modal -->
+
+    <dialog id="service-modal" class="service-modal">
+
+        <div class="modal-content">
+
+            <button
+                id="modal-close"
+                class="modal-close"
+                aria-label="Close service details"
+            >
+                
+            </button>
+
+            <div id="modal-body"></div>
+
+        </div>
+
+    </dialog>
+
+</main>
+
+
+<footer class="site-footer">
+
+    <div class="footer-grid">
+
+        <div>
+            <h2>Ginsolo Ventures</h2>
+
+            <p>
+                Granite and construction material haulage
+                across South East Nigeria.
+            </p>
+        </div>
+
+        <div>
+
+            <h3>Navigation</h3>
+
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+            <a href="attributions.html">Attributions</a>
+
+        </div>
+
+        <div>
+
+            <h3>Contact</h3>
+
+            <p>South East Nigeria</p>
+            <p>Phone: YOUR PHONE NUMBER</p>
+            <p>Email: YOUR EMAIL</p>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>
+             <span id="current-year"></span>
+            Ginsolo Ventures.
+        </p>
+
+        <a href="YOUR-VIDEO-URL" target="_blank" rel="noopener">
+            Project Demonstration Video
+        </a>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
