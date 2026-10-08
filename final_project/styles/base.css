@@ -1,13 +1,12 @@
 :root {
     --primary: #1f2937;
     --primary-dark: #111827;
-    --secondary: #d97706;
+    --secondary: #92400e;
     --secondary-dark: #b45309;
-
     --light: #f8fafc;
     --white: #ffffff;
     --text: #1f2937;
-    --muted: #64748b;
+      --muted: #64748b;
     --border: #e2e8f0;
 
     --heading-font: Georgia, "Times New Roman", serif;
