@@ -49,6 +49,48 @@
     </section>
 
 </main>
+<section class="section" aria-labelledby="details-heading">
+  <h2 id="details-heading">Your Submitted Details</h2>
+  <dl id="submitted-details">
+    <p>Loading your submitted information...</p>
+  </dl>
+</section>
 
+<script type="module">
+  const params = new URLSearchParams(window.location.search);
+
+  const fields = [
+    ["name", "Full Name"],
+    ["email", "Email Address"],
+    ["phone", "Phone Number"],
+    ["material", "Material Required"],
+    ["location", "Delivery Location"],
+    ["quantity", "Estimated Quantity"],
+    ["message", "Project Details"],
+    ["consent", "Consent"]
+  ];
+
+  const container = document.querySelector("#submitted-details");
+  container.replaceChildren();
+
+  for (const [key, label] of fields) {
+    const value = params.get(key);
+
+    if (value !== null && value.trim() !== "") {
+      const term = document.createElement("dt");
+      const description = document.createElement("dd");
+
+      term.textContent = label;
+      description.textContent = value;
+
+      container.append(term, description);
+    }
+  }
+
+  if (!container.children.length) {
+    container.textContent =
+      "No submitted information was found.";
+  }
+</script>
 </body>
 </html>
