@@ -6,6 +6,7 @@
         "material": "Crushed Granite",
         "application": "Building foundations",
         "capacity": "10 - 30 tonnes",
+        "image": "granite1.webp",
         "coverage": "South East Nigeria",
         "description": "Transportation of crushed granite from approved material sources to construction sites."
     },
@@ -16,6 +17,7 @@
         "material": "Stone Base",
         "application": "Road construction",
         "capacity": "10 - 30 tonnes",
+        "image": "hero.webp",
         "coverage": "South East Nigeria",
         "description": "Stone base transportation for road and civil engineering projects."
     },
@@ -26,6 +28,7 @@
         "material": "Construction Aggregates",
         "application": "Concrete production",
         "capacity": "10 - 30 tonnes",
+        "image": "granite.webp",
         "coverage": "South East Nigeria",
         "description": "Reliable movement of aggregate materials for construction projects."
     },
@@ -36,6 +39,7 @@
         "material": "Sharp Sand",
         "application": "Concrete and block work",
         "capacity": "10 - 30 tonnes",
+        "image": "sand.webp",
         "coverage": "South East Nigeria",
         "description": "Sharp sand transportation for residential and commercial construction."
     },
@@ -46,6 +50,7 @@
         "material": "Building Sand",
         "application": "Masonry work",
         "capacity": "10 - 30 tonnes",
+        "image": "sharp_sand.webp",
         "coverage": "South East Nigeria",
         "description": "Building sand haulage for masonry and general construction work."
     },

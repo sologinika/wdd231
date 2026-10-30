@@ -3,280 +3,179 @@
 
 <head>
     <meta charset="UTF-8">
-
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-          content="Abia Business Chamber home page connecting businesses, entrepreneurs, and organizations across Abia State, Nigeria.">
+        content="WDD231 course home page showcasing web development courses, completed courses, and student information.">
 
-    <meta name="author"
-          content="Solomon Ginikachukwu">
+    <meta name="author" content="Solomon Ginikachukwu">
 
-    <title>Abia Business Chamber | Index</title>
+    <title>WDD231 | Course Home Page</title>
 
-    <!-- Open Graph -->
-    <meta property="og:title"
-          content="Abia Business Chamber | Home">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
 
-    <meta property="og:description"
-          content="Connecting businesses and organizations across Abia State, Nigeria.">
-
-    <meta property="og:image"
-          content="https://sologinika.github.io/wdd231/chamber/images/eastern.png">
-
-    <meta property="og:url"
-          content="https://sologinika.github.io/wdd231/chamber/index.html">
-
-    <meta property="og:type"
-          content="website">
-
-    <link rel="icon" href="images/favicon.ico">
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
-          rel="stylesheet">
-
-     <link rel="stylesheet" href="styles/small.css">
-     <link rel="stylesheet" href="styles/larger.css">
-     <script src="scripts/index.js" type="module"></script>
-
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+    <script src="scripts/date.js" defer></script>
 </head>
 
 <body>
 
-<header>
-    <div class="header-container">
+    <!-- HEADER -->
+    <header>
 
-        <a class="logo-link" href="index.html">
-            <img src="images/fresh.png"
-                 alt="Abia Business Chamber logo"
-                 width="100"
-                 height="100">
-            
-            <span>
-                <strong>Abia Business</strong>
-                <small>Chamber of Commerce</small>
-            </span>
-        </a>
+        <div class="header-content">
 
+            <img src="images/profile.jpg"
+                alt="Student profile photograph"
+                class="profile-image">
+
+            <span class="student-name">Solomon Ginikachukwu</span>
+
+        </div>
+
+        <!-- RESPONSIVE NAVIGATION -->
         <button id="menu-button"
-                aria-label="Open navigation menu"
-                aria-expanded="false"
-                aria-controls="nav-menu">
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="primary-navigation">
             ☰
         </button>
 
-        <nav id="nav-menu">
+        <nav id="primary-navigation" aria-label="Main navigation">
 
-            <a href="index.html" aria-current="page">Home</a>
+            <a href="index.html" class="active" aria-current="page">Home</a>
 
-            <a href="directory.html">
-                Directory
-            </a>
+            <a href="#">Chamber</a>
 
-            <a href="discover.html">
-                Discover
-            </a>
-
-            <a href="join.html">
-                Join
-            </a>
+            <a href="#">Final Project</a>
 
         </nav>
 
-    </div>
-</header>
+    </header>
 
+    <!-- MAIN CONTENT -->
+    <main>
 
-<main>
+        <h1>Home</h1>
 
-    <!-- HERO -->
-    <section class="hero">
+        <div class="main-grid">
 
-        <img src="images/hero.png"
-             alt="Businesses and entrepreneurs in Abia State"
-             width="1200"
-             height="600"
-             fetchpriority="high">
+            <!-- ABOUT ME SECTION -->
+            <section class="about-section">
 
-        <div class="hero-content">
+                <h2>About Me</h2>
 
-            <h1>
-                Building a Stronger Business Community
-            </h1>
+                <div class="section-content">
 
-            <p>
-                Connecting businesses, entrepreneurs, and organizations
-                throughout Abia State.
-            </p>
+                    <p>
+                        My name is Solomon Ginikachukwu. I am a student
+                        passionate about technology, programming, and
+                        web development.
 
-            <a class="cta-button" href="join.html">
-                Join the Chamber
-            </a>
+                        I am currently studying Web Frontend Development
+                        through BYU-Pathway Worldwide.
+
+                        My goal is to develop practical skills in
+                        HTML, CSS, JavaScript, and modern web
+                        technologies to build responsive and
+                        user-friendly websites.
+                    </p>
+
+                </div>
+
+            </section>
+
+            <!-- STUDENT PHOTO -->
+            <section class="photo-section">
+
+                <h2>Student Photo</h2>
+
+                <div class="photo-content">
+
+                    <img src="images/profile.jpg"
+                        alt="Photograph of Solomon Ginikachukwu"
+                        loading="lazy">
+
+                </div>
+
+            </section>
 
         </div>
 
-    </section>
+        <!-- COURSE SECTION -->
+        <section class="courses-section">
 
+            <h2>Web Certificate Courses</h2>
 
-    <!-- EVENTS -->
-    <section class="home-section events">
+            <!-- FILTER BUTTONS -->
+            <div class="filter-buttons">
 
-        <h2>Current Events</h2>
+                <button class="filter-btn active"
+                    data-filter="ALL"
+                    aria-pressed="true">
+                    All
+                </button>
 
-        <div class="event-grid">
+                <button class="filter-btn"
+                    data-filter="WDD"
+                    aria-pressed="false">
+                    WDD
+                </button>
 
-            <article class="event-card">
+                <button class="filter-btn"
+                    data-filter="CSE"
+                    aria-pressed="false">
+                    CSE
+                </button>
 
-                <h3>Business Networking Meeting</h3>
+            </div>
+
+            <!-- DYNAMIC COURSE DISPLAY -->
+            <div id="course-container" class="course-container">
+
+                <!-- JavaScript inserts courses here -->
+
+            </div>
+
+            <!-- CREDIT TOTAL -->
+            <div class="credit-summary">
 
                 <p>
-                    Meet local entrepreneurs and business leaders
-                    and build valuable professional connections.
+                    Total Credits:
+                    <span id="total-credits">0</span>
                 </p>
 
-                <p>
-                    <strong>Date:</strong>
-                    September 20, 2026
-                </p>
+            </div>
 
-            </article>
-
-
-            <article class="event-card">
-
-                <h3>Small Business Workshop</h3>
-
-                <p>
-                    Learn practical strategies for improving
-                    your business operations and growth.
-                </p>
-
-                <p>
-                    <strong>Date:</strong>
-                    September 27, 2026
-                </p>
-
-            </article>
-
-        </div>
-
-    </section>
-
-
-    <!-- WEATHER -->
-    <section class="home-section weather">
-
-        <h2>Abia State Weather</h2>
-
-        <div id="current-weather"
-             class="current-weather">
-
-            <p>Loading current weather...</p>
-
-        </div>
-
-        <h3>Three-Day Forecast</h3>
-
-        <div id="forecast"
-             class="forecast-grid">
-
-            <p>Loading forecast...</p>
-
-        </div>
-
-    </section>
-
-
-    <!-- SPOTLIGHTS -->
-    <section class="home-section">
-
-        <h2>Business Spotlights</h2>
-
-        <div id="spotlights"
-             class="spotlight-grid">
-
-            <p>Loading business spotlights...</p>
-
-        </div>
-
-    </section>
-
-</main>
-
-
-<footer>
-
-    <div class="footer-content">
-
-        <div>
-
-            <h2>Abia Business Chamber</h2>
-
-            <p>
-                Chamber House<br>
-                Umuahia, Abia State<br>
-                Nigeria
+            <p class="course-note">
+                Completed courses are highlighted in green.
             </p>
 
-        </div>
+        </section>
 
+    </main>
 
-        <div>
+    <!-- FOOTER -->
+    <footer>
 
-            <h2>Contact</h2>
-
-            <p>
-                Email:
-                info@abiabusinesschamber.org
-            </p>
-
-            <p>a
-                Phone:
-                +234 800 000 0000
-            </p>
-
-        </div>
-
-
-        <div>
-
-            <h2>Development</h2>
+        <div class="footer-content">
 
             <p>
-                Solomon Ginikachukwu
+                 <span id="current-year"></span>
+                Solomon Ginikachukwu | Nigeria
             </p>
 
             <p>
-                WDD 231
-            </p>
-
-            <p>
-                Last Modification:
+                Last Modified:
                 <span id="last-modified"></span>
             </p>
 
         </div>
 
-    </div>
-
-
-    <div class="copyright">
-
-        <p>
-            © <span id="current-year"></span>
-            Abia Business Chamber
-        </p>
-
-    </div>
-
-</footer>
+    </footer>
 
 </body>
+
 </html>

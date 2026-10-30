@@ -1,331 +1,344 @@
+/* =========================
+   GLOBAL VARIABLES
+========================= */
 
 :root {
-  --blue: #003f88;
-  --blue-dark: #002a5d;
-  --green: #0d6527;
-  --yellow: #f4c430;
-  --text: #17212b;
-  --page: #f4f7f9;
-  --white: #ffffff;
-  --border: #c7d1da;
-  --content-width: 1100px;
+    --primary-color: #14213d;
+    --secondary-color: #1d3557;
+    --accent-color: #fca311;
+    --light-color: #f5f5f5;
+    --white-color: #ffffff;
+    --dark-color: #222222;
+    --completed-color: #e0f2e9;
+
+    --heading-font: Arial, sans-serif;
+    --body-font: Arial, sans-serif;
 }
 
-nav ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
+
+/* =========================
+   GENERAL STYLING
+========================= */
 
 * {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Roboto, Arial, sans-serif;
-  color: var(--text);
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  background: var(--page);
-  line-height: 1.5;
-}
-
-/* Default links: readable against light backgrounds */
-a {
-  color: var(--blue-dark);
+    margin: 0;
+    padding: 0;
+    font-family: var(--body-font);
+    color: var(--dark-color);
+    background-color: var(--white-color);
+    line-height: 1.6;
 }
 
 img {
-  display: block;
-  max-width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
-.skip-link {
-  position: absolute;
-  top: -5rem;
-  left: 1rem;
-  z-index: 10;
-  padding: .7rem 1rem;
-  background: var(--white);
-  color: var(--text);
-  font-weight: 700;
+h1,
+h2,
+h3 {
+    font-family: var(--heading-font);
 }
 
-.skip-link:focus {
-  top: 1rem;
+h1 {
+    color: var(--primary-color);
+    border-bottom: 3px solid var(--accent-color);
+    padding-bottom: 10px;
 }
 
-/* Header */
+
+/* =========================
+   HEADER
+========================= */
+
 header {
-  background: var(--blue);
-  color: var(--white);
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 15px;
 }
 
-.header-container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  width: min(92%, var(--content-width));
-  margin: auto;
-  padding: .75rem 0;
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
-.logo-link {
-  display: flex;
-  align-items: center;
-  gap: .7rem;
-  color: var(--white);
-  text-decoration: none;
+.profile-image {
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
-.logo-link img {
-  width: 55px;
-  height: 55px;
-  object-fit: contain;
+.student-name {
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
-.logo-link strong,
-.logo-link small {
-  display: block;
-}
 
-.logo-link small {
-  color: #dbe9f5;
-}
+/* =========================
+   NAVIGATION
+========================= */
 
-/* Menu button */
 #menu-button {
-  padding: .3rem .6rem;
-  border: 1px solid var(--white);
-  border-radius: .25rem;
-  background: transparent;
-  color: var(--white);
-  font-size: 1.5rem;
-  cursor: pointer;
+    display: block;
+    margin: 15px 0 0 auto;
+    background: var(--accent-color);
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--primary-color);
 }
 
-/* Navigation */
 nav {
-  display: none;
-  flex-direction: column;
-  width: 100%;
-  margin-top: .7rem;
+    display: none;
+    flex-direction: column;
+    margin-top: 10px;
 }
 
 nav.open {
-  display: flex;
+    display: flex;
 }
 
 nav a {
-  padding: .7rem 1rem;
-  color: var(--white);
-  font-weight: 700;
-  text-decoration: none;
+    display: block;
+    text-decoration: none;
+    color: var(--white-color);
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #52617a;
 }
 
 nav a:hover,
-nav a:focus-visible,
-nav a[aria-current="page"] {
-  background: var(--green);
-  color: var(--white);
-  text-decoration: underline;
-  text-underline-offset: .25rem;
+nav a:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
 }
 
-/* Hero section */
-.hero {
-  position: relative;
-  min-height: 360px;
-  overflow: hidden;
-  background: var(--ffffff);
+nav a.active {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    font-weight: bold;
 }
 
-.hero > img {
-  width: 100%;
-  min-height: 360px;
-  object-fit: cover;
+
+/* =========================
+   MAIN CONTENT
+========================= */
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-.hero-content {
-  position: absolute;
-  inset: 0;
-  display: grid;
-  align-content: center;
-  justify-items: start;
-  padding: 2rem max(4%, calc((100% - var(--content-width)) / 2));
-  color: var(--white);
-  background: linear-gradient(
-    90deg,
-    rgb(0 25 50 / 88%),
-    rgb(0 25 50 / 58%) 55%,
-    transparent
-  );
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
 }
 
-.hero-content h1 {
-  max-width: 17ch;
-  margin: 0;
-  font-family: Montserrat, Arial, sans-serif;
-  font-size: clamp(2rem, 8vw, 4rem);
-  line-height: 1.1;
+.about-section,
+.photo-section,
+.courses-section {
+    background-color: var(--light-color);
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    overflow: hidden;
 }
 
-.hero-content p {
-  max-width: 34rem;
-  font-size: 1.08rem;
+section h2 {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 12px;
+    margin: 0;
+    text-align: center;
+    font-size: 1.2rem;
 }
 
-/* Call-to-action button */
-.cta-button {
-  display: inline-block;
-  padding: .75rem 1rem;
-  border-radius: .25rem;
-  background: var(--yellow);
-  color: var(--text);
-  font-weight: 700;
-  text-decoration: none;
+.section-content {
+    padding: 20px;
 }
 
-.cta-button:hover,
-.cta-button:focus-visible {
-  background: #ffda67;
-  color: var(--text);
+.section-content p {
+    margin: 0;
+    text-align: justify;
 }
 
-/* Main content */
-main > .home-section {
-  width: min(92%, var(--content-width));
-  margin: 0 auto;
-  padding: 2rem 0;
+.photo-content {
+    padding: 15px;
+    text-align: center;
 }
 
-.home-section h2 {
-  margin: 0 0 1rem;
-  color: var(--blue);
-  font-family: Montserrat, Arial, sans-serif;
+.photo-content img {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
 }
 
-.home-section h3 {
-  color: var(--text);
+
+/* =========================
+   COURSE SECTION
+========================= */
+
+.courses-section {
+    margin-top: 25px;
 }
 
-/* Cards and grids */
-.event-grid,
-.forecast-grid,
-.spotlight-grid {
-  display: grid;
-  gap: 1rem;
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 10px;
+    flex-wrap: wrap;
 }
 
-.event-card,
-.forecast-card,
-.spotlight-card,
-.weather {
-  padding: 1.1rem;
-  border: 1px solid var(--border);
-  border-radius: .5rem;
-  background: var(--white);
-  box-shadow: 0 2px 6px rgb(0 0 0 / 8%);
+.filter-btn {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
 }
 
-.event-card h3,
-.spotlight-card h3 {
-  margin-top: 0;
+.filter-btn:hover,
+.filter-btn:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
 }
 
-.current-weather {
-  display: flex;
-  align-items: center;
-  gap: .75rem;
+.filter-btn.active {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
 }
 
-.current-weather img {
-  width: 80px;
-  height: 80px;
+
+/* =========================
+   COURSE CARDS
+========================= */
+
+.course-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 15px;
 }
 
-.current-weather p {
-  margin: .2rem 0;
+.course-card {
+    background-color: var(--white-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 6px;
+    padding: 15px;
+    text-align: center;
 }
 
-.temperature {
-  margin: 0;
-  font-size: 2.2rem;
-  font-weight: 700;
+.course-card h3 {
+    margin: 0 0 8px;
+    color: var(--primary-color);
 }
 
-.forecast-card h4 {
-  margin: .1rem 0 .5rem;
+.course-card p {
+    margin: 5px 0;
 }
 
-.forecast-card p {
-  margin: .3rem 0;
+.course-card.completed {
+    background-color: var(--completed-color);
+    border-color: #176b3a;
 }
 
-.forecast-temperature {
-  font-size: 1.25rem;
-  font-weight: 700;
+.course-card.completed h3 {
+    color: #14532d;
 }
 
-.spotlight-card img {
-  width: 160px;
-  height: 96px;
-  margin-bottom: .75rem;
-  object-fit: contain;
+.completed-label {
+    display: inline-block;
+    color: #14532d;
+    font-weight: bold;
+    margin-top: 8px;
 }
 
-.spotlight-card p {
-  margin: .35rem 0;
+
+/* =========================
+   CREDIT SUMMARY
+========================= */
+
+.credit-summary {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 15px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
-.spotlight-card a {
-  color: var(--blue-dark);
-  font-weight: 700;
+.credit-summary p {
+    margin: 0;
 }
 
-/* Footer */
+#total-credits {
+    color: var(--accent-color);
+}
+
+.course-note {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
 footer {
-  margin-top: 1rem;
-  padding: 2rem 0 1rem;
-  background: var(--text);
-  color: var(--white);
-}
-
-.footer-content,
-.copyright {
-  width: min(92%, var(--content-width));
-  margin: auto;
-}
-
-.footer-content {
-  display: grid;
-  gap: 1.3rem;
-}
-
-.footer-content h2 {
-  margin-top: 0;
-  color: var(--yellow);
-  font-size: 1.1rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
 }
 
 .footer-content p {
-  color: #e2e8ed;
+    margin: 5px;
 }
 
-/* Footer links: white on dark background */
-.footer-content a,
-.footer-content a:visited,
-.footer-content a:hover,
-.footer-content a:focus-visible {
-  color: var(--white);
+
+/* =========================
+   ACCESSIBILITY
+========================= */
+
+button:focus-visible,
+a:focus-visible {
+    outline: 3px solid var(--accent-color);
+    outline-offset: 3px;
 }
 
-.copyright {
-  margin-top: 1rem;
-  padding-top: 1rem;
-  border-top: 1px solid #46515a;
+
+/* =========================
+   SMALL SCREEN ADJUSTMENTS
+========================= */
+
+@media screen and (max-width: 350px) {
+
+    .student-name {
+        font-size: 1rem;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .filter-btn {
+        padding: 10px 15px;
+    }
+
 }
