@@ -12,11 +12,15 @@
 
     <title>WDD231 | Course Home Page</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
 
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/courses.js" defer></script>
+    <script src="scripts/course.js" defer></script>
     <script src="scripts/date.js" defer></script>
 </head>
 
@@ -27,9 +31,9 @@
 
         <div class="header-content">
 
-            <img src="images/profile.jpg"
-                alt="Student profile photograph"
-                class="profile-image">
+            <img src="images/logo.svg"
+             alt="Solomon Ginikachukwu logo"
+             class="profile-image">
 
             <span class="student-name">Solomon Ginikachukwu</span>
 
@@ -45,11 +49,9 @@
 
         <nav id="primary-navigation" aria-label="Main navigation">
 
-            <a href="index.html" class="active" aria-current="page">Home</a>
+            <a href="chamber/index.html">Chamber</a>
 
-            <a href="#">Chamber</a>
-
-            <a href="#">Final Project</a>
+            <a href="final/index.html">Final</a>
 
         </nav>
 
@@ -95,8 +97,8 @@
                 <div class="photo-content">
 
                     <img src="images/profile.jpg"
-                        alt="Photograph of Solomon Ginikachukwu"
-                        loading="lazy">
+                     alt="Portrait of Solomon Ginikachukwu"
+                     loading="lazy">
 
                 </div>
 
@@ -158,24 +160,39 @@
     </main>
 
     <!-- FOOTER -->
-    <footer>
+   <footer>
 
-        <div class="footer-content">
+    <div class="footer-content">
 
-            <p>
-                 <span id="current-year"></span>
-                Solomon Ginikachukwu | Nigeria
-            </p>
+        <!-- SOCIAL MEDIA LINKS -->
+        <div class="social-links">
 
-            <p>
-                Last Modified:
-                <span id="last-modified"></span>
-            </p>
+            <a href="sologinika-github"
+               target="solomon-ginikachukwu-github"
+               rel="noopener noreferrer">
+                GitHub
+            </a>
+
+            <a href="solomon-ginikachukwu-linkedin"
+               target="solomon-ginikachukwu-linkedin"
+               rel="noopener noreferrer">
+                LinkedIn
+            </a>
 
         </div>
 
-    </footer>
+        <!-- COPYRIGHT -->
+        <p>
+             <span id="current-year"></span>
+            Solomon Ginikachukwu | Nigeria
+        </p>
 
-</body>
+        <!-- LAST MODIFIED -->
+        <p>
+            Last Modified:
+            <span id="last-modified"></span>
+        </p>
 
-</html>
+    </div>
+
+</footer>
