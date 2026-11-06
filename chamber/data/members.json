@@ -1,0 +1,79 @@
+[
+  {
+    "name": "AbiaTech Solutions", 
+    "category": "IT Business Consulting",
+    "address": "14 Market Road Aba, Abia State",
+    "phone": "+234 803 605 0101",
+    "website": "https://abiatech.com",
+    "image": "abiatech.svg",
+    "membership": 3,
+    "membershipName": "Gold",
+    "description": "Business planning, accounting support, and professional advisory services."
+  },
+  {
+    "name": "Ginsolo Agro Services",
+    "category": "Agriculture",
+    "address": "No 6 Owerri Road Umuahia, Aba State",
+    "phone": "+234 803 444 0102",
+    "website": "https://ginsolo.com",
+    "image": "ginsolo.svg",
+    "membership": 2,
+    "membershipName": "Silver",
+    "description": "Farm inputs, equipment support, and practical agricultural solutions."
+  },
+  {
+    "name": "Ariaria Shoe Centre",
+    "category": "Shoe production and Retail",
+    "address": "22 Unity Street, Abia State",
+    "phone": "+234 803 535 0193",
+    "website": "https://ariaria.com",
+    "image": "ariaria.svg",
+    "membership": 1,
+    "membershipName": "Member",
+    "description": "producing and retailing shoes, computer training, and professional development."
+  },
+  {
+    "name": "Leads Health Pharmacy",
+    "category": "Healthcare",
+    "address": "5 Central Avenue, Abia State",
+    "phone": "+234 803001 0104",
+    "website": "https://leadshealth.com",
+    "image": "leadshealth.svg",
+    "membership": 3,
+    "membershipName": "Gold",
+    "description": "Community pharmacy services and everyday healthcare essentials."
+  },
+  {
+    "name": "MetroBuild Construction",
+    "category": "Construction",
+    "address": "31 Industrial Layout Umuahia, Abia State",
+    "phone": "+234 903 555 0105",
+    "website": "https://metrobuilt.com",
+    "images": "metrobuilt.svg",
+    "membership": 2,
+    "membershipName": "Silver",
+    "description": "Building materials, project support, and construction services."
+  },
+  {
+    "name": "Proxy Restaurant",
+    "category": "Food and Hospitality",
+    "address": "3 Riverside Road Ohafia, Abia State",
+    "phone": "+234 703 555 0106",
+    "website": "https://proxy.com",
+    "image": "proxy.svg",
+    "membership": 1,
+    "membershipName": "Member",
+    "description": "Locally inspired meals, catering, and event refreshments."
+  },
+  {
+    "name": "leadstech Digital Services",
+    "category": "Information Technology",
+    "address": "17 Technology Close off Abia State University Uturu, Abia State",
+    "phone": "+234 803 897 0107",
+    "website": "https://leadstech.com",
+    "image": "leadstech.svg",
+    "membership": 2,
+    "membershipName": "Silver",
+    "description": "Website development, digital marketing, and IT support for businesses."
+  }
+]

@@ -1,100 +1,32 @@
-/* =========================
-   TABLET AND DESKTOP DESIGN
-========================= */
-
-@media screen and (min-width: 700px) {
-
-    /* HEADER */
-
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 15px 5%;
-    }
-
-    .header-content {
-        flex: 1;
-    }
-
-
-    /* NAVIGATION */
-
-    #menu-button {
-        display: none;
-    }
-
-    nav {
-        display: flex;
-        flex-direction: row;
-        gap: 10px;
-        margin: 0;
-    }
-
-    nav a {
-        padding: 12px 18px;
-        border: none;
-        border-radius: 4px;
-    }
-
-
-    /* MAIN GRID */
-
-    .main-grid {
-        grid-template-columns: 2fr 1fr;
-        align-items: stretch;
-    }
-
-    .about-section,
-    .photo-section {
-        min-height: 300px;
-    }
-
-    .photo-content img {
-        height: 220px;
-        width: 220px;
-    }
-
-
-    /* COURSE GRID */
-
-    .course-container {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 15px;
-        padding: 20px;
-    }
-
-    .course-card {
-        padding: 20px;
-    }
-
+/* Wider screen layout */
+@media (min-width: 700px) {
+  .site-header { padding: .8rem max(2rem, calc((100% - 1100px) / 2)); }
+  .menu-toggle { display: none; }
+  .primary-nav {
+    display: flex;
+    align-items: center;
+    position: static;
+    padding: 0;
+    gap: .35rem;
+  }
+  .primary-nav a { padding: .65rem .8rem; }
+  .page-intro { padding-top: 3.2rem; }
+  .directory-toolbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+  }
+  .members-grid { grid-template-columns: repeat(auto-fit, minmax(245px, 1fr)); }
+  .members-list .member-card {
+    grid-template-columns: 1.5fr 1.2fr 1.2fr 1fr;
+    align-items: center;
+    gap: 1rem;
+  }
+  .members-list .member-card h3 { margin: 0; }
+  .members-list .member-card .membership { margin: 0; }
+  .site-footer { grid-template-columns: 1fr 1fr; align-items: start; }
+  .footer-development { border-top: 0; border-left: 1px solid #657087; padding: 0 0 0 1.5rem; }
 }
-
-
-/* =========================
-   LARGE DESKTOP
-========================= */
-
-@media screen and (min-width: 1000px) {
-
-    main {
-        padding: 30px;
-    }
-
-    .main-grid {
-        grid-template-columns: 2fr 1fr;
-        gap: 25px;
-    }
-
-    .course-container {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .course-card {
-        min-height: 160px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
+@media (min-width: 1000px) {
+  .members-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }

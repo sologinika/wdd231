@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" role="img" aria-labelledby="title desc">
+  <title id="title">PROXY Restaurant logo</title>
+  <desc id="desc">A premium restaurant logo featuring a covered serving cloche, a rising steam motif, and the PROXY RESTAURANT wordmark.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7D982"/>
+      <stop offset="1" stop-color="#B97825"/>
+    </linearGradient>
+    <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#26382F"/>
+      <stop offset="1" stop-color="#101D19"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Emblem -->
+  <circle cx="500" cy="245" r="172" fill="#F8F5ED" stroke="url(#gold)" stroke-width="10"/>
+  <circle cx="500" cy="245" r="151" fill="none" stroke="#26382F" stroke-width="3"/>
+
+  <!-- Steam -->
+  <path d="M425 150 C400 125 435 110 418 88 M500 145 C475 116 512 102 495 78 M575 150 C550 125 585 108 570 88"
+        fill="none" stroke="url(#gold)" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Serving cloche -->
+  <path d="M350 278 C355 213 417 168 500 168 C583 168 645 213 650 278Z"
+        fill="url(#dark)" stroke="#101D19" stroke-width="6"/>
+  <path d="M337 281 H663 C673 281 681 289 681 299 V307 H319 V299 C319 289 327 281 337 281Z"
+        fill="url(#gold)"/>
+  <path d="M478 168 C478 145 522 145 522 168" fill="none" stroke="#26382F" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="500" cy="151" r="11" fill="url(#gold)"/>
+
+  <!-- Plate -->
+  <ellipse cx="500" cy="328" rx="190" ry="23" fill="none" stroke="#26382F" stroke-width="8"/>
+  <ellipse cx="500" cy="328" rx="150" ry="12" fill="none" stroke="url(#gold)" stroke-width="5"/>
+
+  <!-- Wordmark -->
+  <text x="500" y="475" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+        font-size="108" font-weight="700" letter-spacing="8" fill="#26382F">PROXY</text>
+  <path d="M250 510 H390 M610 510 H750" stroke="url(#gold)" stroke-width="6" stroke-linecap="round"/>
+  <text x="500" y="570" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="43" font-weight="700" letter-spacing="12" fill="#B97825">RESTAURANT</text>
+  <text x="500" y="625" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="22" font-weight="600" letter-spacing="4" fill="#5E6B62">GOOD FOOD • GREAT MOMENTS</text>
+</svg>

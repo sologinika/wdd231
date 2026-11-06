@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" role="img" aria-labelledby="title desc">
+  <title id="title">Ariara Shoe Center logo</title>
+  <desc id="desc">A modern footwear store logo featuring a stylized leather shoe, a gold accent, and the words Ariara Shoe Center.</desc>
+  <defs>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#183B63"/>
+      <stop offset="1" stop-color="#0B2038"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7D778"/>
+      <stop offset="1" stop-color="#C58A22"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Emblem -->
+  <circle cx="500" cy="235" r="172" fill="#F5F7FA" stroke="url(#navy)" stroke-width="14"/>
+  <circle cx="500" cy="235" r="151" fill="none" stroke="url(#gold)" stroke-width="5"/>
+
+  <!-- Stylized shoe silhouette -->
+  <path d="M330 272
+           C365 265 390 245 412 213
+           L447 166
+           C456 154 475 151 489 160
+           L533 190
+           C555 205 580 216 612 224
+           L662 237
+           C680 242 692 256 692 274
+           L692 291
+           C692 308 679 320 660 320
+           L359 320
+           C337 320 320 306 320 289
+           C320 281 324 275 330 272Z"
+        fill="url(#navy)" stroke="#0B2038" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Shoe upper and laces -->
+  <path d="M420 216 C458 226 500 241 548 247" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+  <path d="M449 190 L478 221 M469 179 L500 211 M490 174 L521 204"
+        fill="none" stroke="url(#gold)" stroke-width="7" stroke-linecap="round"/>
+  <path d="M336 287 C420 300 560 300 683 284" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+  <path d="M358 328 H655" fill="none" stroke="url(#gold)" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Small motion / style accents -->
+  <path d="M350 150 H405 M330 174 H382 M595 147 H650"
+        fill="none" stroke="url(#gold)" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Brand name -->
+  <text x="500" y="475" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif" font-size="91"
+        font-weight="800" letter-spacing="2" fill="#102B49">ARIARA</text>
+  <path d="M225 510 H775" stroke="url(#gold)" stroke-width="7" stroke-linecap="round"/>
+  <text x="500" y="578" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif" font-size="48"
+        font-weight="700" letter-spacing="10" fill="#B47A1C">SHOE CENTER</text>
+  <text x="500" y="630" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif" font-size="22"
+        font-weight="600" letter-spacing="4" fill="#53677D">STEP OUT IN STYLE</text>
+</svg>

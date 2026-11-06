@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" role="img" aria-labelledby="title desc">
+  <title id="title">METROBUILT CONSTRUCTION logo</title>
+  <desc id="desc">A bold construction company logo with a geometric skyline, crane, and strong architectural lettering.</desc>
+  <defs>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#345B78"/>
+      <stop offset="1" stop-color="#142B40"/>
+    </linearGradient>
+    <linearGradient id="safety" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFC247"/>
+      <stop offset="1" stop-color="#E88922"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Skyline emblem -->
+  <g transform="translate(180 55)">
+    <path d="M110 300 V150 L220 95 L330 150 V300Z" fill="url(#steel)"/>
+    <path d="M220 95 V300" stroke="#F4F6F8" stroke-width="7" opacity=".8"/>
+    <path d="M145 180 H185 V220 H145Z M255 180 H295 V220 H255Z
+             M145 245 H185 V285 H145Z M255 245 H295 V285 H255Z"
+          fill="#F4F6F8"/>
+    <path d="M350 300 V90 H445 V300Z" fill="#25445F"/>
+    <path d="M370 125 H425 M370 165 H425 M370 205 H425 M370 245 H425"
+          stroke="#F4F6F8" stroke-width="10" opacity=".9"/>
+    <path d="M445 300 V175 L515 140 L585 175 V300Z" fill="#456A83"/>
+    <path d="M470 205 H500 V235 H470Z M530 205 H560 V235 H530Z
+             M470 255 H500 V285 H470Z M530 255 H560 V285 H530Z"
+          fill="#F4F6F8"/>
+
+    <!-- Crane -->
+    <path d="M395 90 V35 H650 M425 35 L395 65 L365 35 M620 35 V90"
+          fill="none" stroke="url(#safety)" stroke-width="12" stroke-linecap="square"/>
+    <path d="M620 90 V130 Q620 150 640 150" fill="none" stroke="url(#safety)" stroke-width="8"/>
+    <circle cx="395" cy="35" r="9" fill="#E88922"/>
+    <path d="M85 305 H615" stroke="#142B40" stroke-width="16" stroke-linecap="round"/>
+    <path d="M105 330 H595" stroke="url(#safety)" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="500" y="485" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif" font-size="91"
+        font-weight="900" letter-spacing="1" fill="#142B40">METROBUILT</text>
+  <path d="M190 515 H810" stroke="url(#safety)" stroke-width="9" stroke-linecap="round"/>
+  <text x="500" y="585" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif" font-size="45"
+        font-weight="700" letter-spacing="12" fill="#345B78">CONSTRUCTION</text>
+  <text x="500" y="638" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif" font-size="21"
+        font-weight="600" letter-spacing="3" fill="#647584">BUILDING TOMORROW • TODAY</text>
+</svg>

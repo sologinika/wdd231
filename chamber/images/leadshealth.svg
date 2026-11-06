@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" role="img" aria-labelledby="title desc">
+  <title id="title">LEADSHEALTH logo</title>
+  <desc id="desc">A modern healthcare logo with a teal medical cross integrated into a protective heart and the LEADSHEALTH wordmark.</desc>
+  <defs>
+    <linearGradient id="health" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#28C7B7"/>
+      <stop offset="1" stop-color="#087F8C"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#123B50"/>
+      <stop offset="1" stop-color="#176B75"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon tile -->
+  <g transform="translate(58 48)">
+    <rect width="310" height="310" rx="70" fill="#F0FAF8"/>
+    <path d="M155 258 C126 235 55 184 55 116 C55 77 83 51 119 51
+             C137 51 149 60 155 75 C162 60 176 51 194 51
+             C230 51 255 78 255 116 C255 184 184 235 155 258Z"
+          fill="url(#health)"/>
+    <path d="M155 100 V202 M104 151 H206" fill="none" stroke="#FFFFFF"
+          stroke-width="25" stroke-linecap="round"/>
+    <path d="M38 156 H76 M234 156 H272" fill="none" stroke="#087F8C"
+          stroke-width="8" stroke-linecap="round"/>
+    <circle cx="38" cy="156" r="9" fill="#087F8C"/>
+    <circle cx="272" cy="156" r="9" fill="#087F8C"/>
+    <path d="M155 24 V43" stroke="#28C7B7" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="155" cy="20" r="8" fill="#28C7B7"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="415" y="205" font-size="105" font-weight="800"
+          letter-spacing="-4" fill="url(#brand)">LEADS</text>
+    <text x="700" y="205" font-size="105" font-weight="800"
+          letter-spacing="-4" fill="#159E91">HEALTH</text>
+    <rect x="420" y="238" width="490" height="7" rx="3.5" fill="url(#health)"/>
+    <text x="423" y="294" font-size="24" font-weight="600"
+          letter-spacing="4" fill="#526B75">CARE • WELLNESS • BETTER LIVING</text>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-labelledby="title desc">
+  <title id="title">ABIATECH logo</title>
+  <desc id="desc">Modern technology logo with a geometric letter A, circuit connections, and the ABIATECH wordmark.</desc>
+  <defs>
+    <linearGradient id="techGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16D6C5"/>
+      <stop offset="1" stop-color="#2585F5"/>
+    </linearGradient>
+    <linearGradient id="wordGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#142B4A"/>
+      <stop offset="1" stop-color="#24527A"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(28 22)">
+    <rect x="0" y="0" width="216" height="216" rx="42" fill="#10243D"/>
+    <path d="M42 166 L108 42 L174 166" fill="none" stroke="url(#techGradient)" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M69 127 H147" fill="none" stroke="#FFFFFF" stroke-width="15" stroke-linecap="round"/>
+    <path d="M108 42 V22 M174 166 H192 M42 166 H24" fill="none" stroke="#55E5D6" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="108" cy="22" r="8" fill="#55E5D6"/>
+    <circle cx="192" cy="166" r="8" fill="#55E5D6"/>
+    <circle cx="24" cy="166" r="8" fill="#55E5D6"/>
+    <circle cx="108" cy="127" r="7" fill="#55E5D6"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="282" y="143" font-size="100" font-weight="800" letter-spacing="-4" fill="url(#wordGradient)">ABIA</text>
+    <text x="515" y="143" font-size="100" font-weight="800" letter-spacing="-4" fill="#159EAA">TECH</text>
+    <rect x="286" y="169" width="505" height="5" rx="2.5" fill="url(#techGradient)"/>
+    <text x="288" y="211" font-size="25" font-weight="600" letter-spacing="5" fill="#52677D">INNOVATION • CONNECTIVITY • FUTURE</text>
+  </g>
+</svg>

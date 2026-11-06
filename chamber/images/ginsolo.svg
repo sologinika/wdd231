@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" role="img" aria-labelledby="title desc">
+  <title id="title">FARM PRODUCE logo</title>
+  <desc id="desc">A fresh agricultural brand logo featuring a golden sun, green leaves, a ripe crop field, and the FARM PRODUCE wordmark.</desc>
+  <defs>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#78B947"/>
+      <stop offset="1" stop-color="#236B3A"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFD96A"/>
+      <stop offset="1" stop-color="#E99B2D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Circular farm emblem -->
+  <circle cx="500" cy="245" r="172" fill="#F7F8EF" stroke="#2D713D" stroke-width="12"/>
+  <circle cx="500" cy="245" r="151" fill="none" stroke="#E7B343" stroke-width="4"/>
+
+  <!-- Sun and rays -->
+  <circle cx="500" cy="175" r="48" fill="url(#sun)"/>
+  <g stroke="#E99B2D" stroke-width="8" stroke-linecap="round">
+    <path d="M500 105 V88 M430 125 L418 112 M570 125 L582 112"/>
+    <path d="M408 178 H390 M592 178 H610"/>
+  </g>
+
+  <!-- Rolling hills -->
+  <path d="M345 255 Q425 190 500 245 Q580 185 655 255 V340 H345Z" fill="#9BCB72"/>
+  <path d="M345 280 Q430 235 500 278 Q575 225 655 280 V345 H345Z" fill="#4D963F"/>
+
+  <!-- Crop rows -->
+  <path d="M360 310 Q430 275 500 310 Q570 275 640 310 V350 H360Z" fill="#2E773D"/>
+  <g fill="none" stroke="#DCE9B8" stroke-width="5" stroke-linecap="round">
+    <path d="M390 350 Q435 305 480 306"/>
+    <path d="M455 350 Q500 305 545 306"/>
+    <path d="M520 350 Q565 305 610 306"/>
+  </g>
+
+  <!-- Central sprout -->
+  <path d="M500 300 V205" stroke="#236B3A" stroke-width="12" stroke-linecap="round"/>
+  <path d="M500 250 C440 245 430 195 445 180 C485 180 505 215 500 250Z" fill="url(#leaf)"/>
+  <path d="M500 235 C510 180 560 165 580 180 C580 220 545 245 500 235Z" fill="#3C8A43"/>
+  <path d="M500 250 Q470 215 450 190 M500 235 Q535 200 565 185"
+        fill="none" stroke="#EAF4D8" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Grain stalks -->
+  <g fill="none" stroke="#D6A23B" stroke-width="6" stroke-linecap="round">
+    <path d="M390 320 Q380 270 395 235 M610 320 Q625 270 610 235"/>
+  </g>
+  <g fill="#E7B343">
+    <ellipse cx="390" cy="245" rx="8" ry="15" transform="rotate(-28 390 245)"/>
+    <ellipse cx="402" cy="263" rx="8" ry="15" transform="rotate(25 402 263)"/>
+    <ellipse cx="610" cy="245" rx="8" ry="15" transform="rotate(28 610 245)"/>
+    <ellipse cx="598" cy="263" rx="8" ry="15" transform="rotate(-25 598 263)"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="500" y="485" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif" font-size="94"
+        font-weight="900" letter-spacing="2" fill="#245D35">FARM</text>
+  <text x="500" y="565" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif" font-size="66"
+        font-weight="800" letter-spacing="9" fill="#D18B25">PRODUCE</text>
+  <path d="M260 595 H740" stroke="#75A94A" stroke-width="7" stroke-linecap="round"/>
+  <text x="500" y="642" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif" font-size="21"
+        font-weight="600" letter-spacing="3" fill="#536B4F">FRESH FROM OUR FARMS</text>
+</svg>

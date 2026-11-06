@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore the Abia Chambers of Commerce business directory. Find trusted local businesses, services, and community partners.">
+  <meta name="author" content="Solomon Ginikachukwu Alagbaoso">
+  <meta name="theme-color" content="#14213d">
+  <title>Business Directory | Abia Chambers of Commerce</title>
+
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+
+  <meta property="og:title" content="Business Directory | Abia Chambers of Commerce">
+  <meta property="og:description" content="Discover and connect with businesses that are members of the Abia Chambers of Commerce.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://yourusername.github.io/wdd231/chamber/images/chamber-social.svg">
+  <meta property="og:url" content="https://yourusername.github.io/wdd231/chamber/directory.html">
+  <meta property="og:image:alt" content="Abia Chambers of Commerce logo">
+
+  <script src="scripts/main.js" defer></script>
+  <script src="scripts/directory.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Abia Chambers of Commerce home">
+      <img src="images/logo.svg" alt="" width="52" height="52">
+      <span><strong>Abia Chambers</strong><small>of Commerce</small></span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-label="Open navigation menu"
+      aria-expanded="false" aria-controls="primary-navigation">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="primary-nav" id="primary-navigation" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="discover.html">Discover</a>
+      <a href="directory.html" aria-current="page">Directory</a>
+      <a href="join.html">Join</a>
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <section class="page-intro">
+      <p class="eyebrow">Connect • Discover • Grow</p>
+      <h1>Business Directory</h1>
+      <p>Meet the local businesses and organisations helping our community thrive. Browse our members and connect with the services you need.</p>
+    </section>
+
+    <section class="directory-section" aria-labelledby="directory-heading">
+      <div class="directory-toolbar">
+        <div>
+          <h2 id="directory-heading">Our Chamber Members</h2>
+          <p id="member-count" class="member-count" aria-live="polite">Loading members…</p>
+        </div>
+        <div class="view-controls" role="group" aria-label="Choose directory display">
+          <button id="grid-view" class="view-button active" type="button" aria-pressed="true">
+            <span aria-hidden="true">▦</span> Grid
+          </button>
+          <button id="list-view" class="view-button" type="button" aria-pressed="false">
+            <span aria-hidden="true">☰</span> List
+          </button>
+        </div>
+      </div>
+      <div id="members-container" class="members-grid" aria-live="polite">
+        <p class="loading-message">Loading chamber members…</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-contact">
+      <h2>Abia Chambers of Commerce</h2>
+      <address>
+        No:12 Eziukwu Road Aba,Abia State<br>
+        <a href="mailto:info@sabiachambers.example">info@sabiachambers.example</a><br>
+        <a href="tel:+2348033440100">+2348033440100</a>
+      </address>
+    </div>
+    <div class="footer-development">
+      <p> <span id="current-year"></span> Abia Chambers of Commerce</p>
+      <p>Solomon Ginikachukwu Alagbaoso | WDD 231</p>
+      <p>Last Modified: <span id="last-modified"></span></p>
+    </div>
+  </footer>
+</body>
+</html>

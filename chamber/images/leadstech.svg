@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" role="img" aria-labelledby="title desc">
+  <title id="title">LEADSTECH logo</title>
+  <desc id="desc">A modern technology brand mark with a forward-moving geometric L symbol, circuit nodes, and the LEADSTECH wordmark.</desc>
+  <defs>
+    <linearGradient id="electric" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#35E0C1"/>
+      <stop offset="1" stop-color="#1684F5"/>
+    </linearGradient>
+    <linearGradient id="text" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#102A43"/>
+      <stop offset="1" stop-color="#245B86"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Geometric L / forward motion icon -->
+  <g transform="translate(62 56)">
+    <rect x="0" y="0" width="300" height="300" rx="66" fill="#102A43"/>
+    <path d="M76 64 V222 H222" fill="none" stroke="url(#electric)"
+          stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M150 222 L222 222 L222 150" fill="none" stroke="#FFFFFF"
+          stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Circuit pathways -->
+    <path d="M76 64 H44 M222 222 H258 M222 150 H258" fill="none"
+          stroke="#5CEAD3" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="44" cy="64" r="11" fill="#5CEAD3"/>
+    <circle cx="258" cy="222" r="11" fill="#5CEAD3"/>
+    <circle cx="258" cy="150" r="11" fill="#5CEAD3"/>
+    <!-- Signal point -->
+    <circle cx="150" cy="222" r="10" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="420" y="220" font-size="112" font-weight="800"
+          letter-spacing="-3" fill="url(#text)">LEADS</text>
+    <text x="715" y="220" font-size="112" font-weight="800"
+          letter-spacing="-4" fill="#159EAA">TECH</text>
+    <rect x="425" y="252" width="480" height="7" rx="3.5" fill="url(#electric)"/>
+    <text x="428" y="305" font-size="25" font-weight="600"
+          letter-spacing="5" fill="#52677D">TECHNOLOGY • INNOVATION • PROGRESS</text>
+  </g>
+</svg>
