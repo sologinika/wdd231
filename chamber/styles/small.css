@@ -1,4 +1,5 @@
 /* San Miguel Chamber — mobile-first styles */
+
 :root {
   --navy: #14213d;
   --blue: #1d3557;
@@ -8,8 +9,17 @@
   --ink: #222222;
   --muted: #5b6472;
   --border: #d8dee8;
-  --heading-font: "Roboto", Arial, sans-serif;
-  --body-font: "Roboto", Arial, sans-serif;
+
+}
+
+:root {
+  --font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  font-weight: 400; /* Use a specific weight like 400 for normal, 700 for bold */
+  font-style: normal;
 }
 body {
   min-width: 320px;
