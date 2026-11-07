@@ -9,19 +9,13 @@
   --ink: #222222;
   --muted: #5b6472;
   --border: #d8dee8;
-
-}
-
-:root {
-  --font-family: "Roboto", sans-serif;
+--font-family: "Roboto", sans-serif;
 }
 
 body {
   font-family: var(--font-family);
   font-weight: 400; /* Use a specific weight like 400 for normal, 700 for bold */
   font-style: normal;
-}
-body {
   min-width: 320px;
   color: var(--ink);
   background: var(--paper);
