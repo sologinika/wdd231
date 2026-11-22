@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover the history, culture, natural attractions and business landmarks of Abia State, Nigeria, with the Abia Business Chamber of Commerce.">
+  <meta name="author" content="Abia Business Chamber of Commerce">
+  <meta property="og:title" content="Discover Abia | Abia Business Chamber of Commerce">
+  <meta property="og:description" content="Explore notable places, heritage, culture and enterprise across Abia State.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPOSITORY/chamber/images/chamber-social.svg">
+  <meta property="og:url" content="https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPOSITORY/chamber/discover.html">
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <link rel="stylesheet" href="styles/discover.css">
+  <script src="scripts/main.js" defer></script>
+  <script type="module" src="scripts/discover.js"></script>
+  <title>Discover Abia | Abia Business Chamber of Commerce</title>
+</head>
+<body>
+  <header>
+    <div class="site-brand">
+      <a class="brand-link" href="index.html" aria-label="Abia Business Chamber of Commerce home">
+        <img src="images/chamber-logo.svg" alt="" width="58" height="58">
+        <span><strong>ABIA</strong><small>BUSINESS CHAMBER OF COMMERCE</small></span>
+      </a>
+    </div>
+    <button id="menu-button" class="menu-button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-nav">☰</button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="directory.html">Directory</a>
+      <a href="join.html">Join</a>
+      <a href="discover.html" aria-current="page">Discover</a>
+    </nav>
+  </header>
+
+  <main class="discover-main">
+    <section class="discover-intro">
+      <p class="eyebrow">People • Places • Possibilities</p>
+      <h1>Discover Abia State</h1>
+      <p>Explore the places, heritage, creativity and enterprise that make Abia an important destination for visitors, entrepreneurs and investors.</p>
+    </section>
+
+    <aside id="visit-message" class="visit-message" aria-live="polite">
+      <p>Welcome! Let us know if you have any questions.</p>
+    </aside>
+
+    <section class="attractions-section" aria-labelledby="attractions-heading">
+      <div class="section-heading">
+        <h2 id="attractions-heading">Places of Interest</h2>
+        <p>Eight places that tell stories about Abia's history, culture, nature and commercial life.</p>
+      </div>
+      <div id="attractions-grid" class="attractions-grid" aria-live="polite">
+        <p class="loading-message">Loading places of interest…</p>
+      </div>
+    </section>
+
+    <dialog id="attraction-dialog" class="attraction-dialog">
+      <div class="dialog-content">
+        <button class="dialog-close" id="dialog-close" aria-label="Close details">×</button>
+        <h2 id="dialog-title">Place details</h2>
+        <p id="dialog-description"></p>
+        <p id="dialog-address" class="dialog-address"></p>
+      </div>
+    </dialog>
+  </main>
+
+  <footer>
+    <div class="footer-about">
+      <h2>Abia Chambers of Commerce</h2>
+      <p>Connecting businesses • Building Abia's prosperity</p>
+      <p>Umuahia, Abia State, Nigeria</p>
+    </div>
+    <div class="footer-contact">
+      <p>Email: info@abia-chambers.com</p>
+      <p>Phone: +234 000 000 0000</p>
+    </div>
+    <div class="footer-meta">
+      <p> <span id="current-year"></span> Abia Business Chamber of Commerce</p>
+      <p>WDD231 Chamber Project</p>
+      <p><a href="https://www.Abia Chambers.com/" target="_blank" rel="noopener noreferrer">Project demonstration video</a> (replace with your own 3–5 minute video)</p>
+      <p><a href="attributions.html">Image and content attributions</a></p>
+      <p id="last-modified"></p>
+    </div>
+  </footer>
+</body>
+</html>
