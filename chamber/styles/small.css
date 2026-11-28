@@ -57,12 +57,10 @@ body {
   display: grid;
   align-content: center;
   justify-items: center;
-  gap: 5px;
 }
 .primary-nav {
   display: normal;
   position: absolute;
-  z-index: 5;
   top: 100%;
   left: 0;
   right: 0;
