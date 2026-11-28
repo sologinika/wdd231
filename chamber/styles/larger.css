@@ -24,8 +24,11 @@
   }
   .members-list .member-card h3 { margin: 0; }
   .members-list .member-card .membership { margin: 0; }
-  .site-footer { grid-template-columns: 1fr 1fr; align-items: start; }
-  .footer-development { border-top: 0; border-left: 1px solid #657087; padding: 0 0 0 1.5rem; }
+  .site-footer { grid-template-columns: 1fr 1fr;
+     align-items: start; }
+  .footer-development { border-top: 0; 
+    border-left: 1px solid #657087;
+     padding: 0 0 0 1.5rem; }
 }
 @media (min-width: 1000px) {
   .members-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }

@@ -104,6 +104,7 @@
   aspect-ratio: 3 / 2;
   object-fit: cover;
   border-radius: 0.4rem;
+  transition: transform 250ms ease, filter 250ms ease, box-shadow 250ms ease;
 }
 
 .attraction-card figcaption {
@@ -199,7 +200,7 @@
 .attraction-card[data-area="colonial-history-museum"] { grid-area: museum; }
 .attraction-card[data-area="amakama-wooden-cave"] { grid-area: amakama; }
 
-/* Medium: 641px–1024px. The areas deliberately create an uneven editorial layout. */
+/* Medium: 641px–1024px. Uneven editorial layout. */
 @media screen and (min-width: 641px) and (max-width: 1024px) {
   .attractions-grid {
     grid-template-columns: repeat(6, minmax(0, 1fr));
@@ -210,18 +211,9 @@
       "juju juju museum museum amakama amakama";
     gap: 1.1rem;
   }
-
-  .attraction-card[data-area="ariaria"] { grid-area: ariaria; }
-  .attraction-card[data-area="national-war-museum"] { grid-area: war; }
-  .attraction-card[data-area="ojukwu-bunker"] { grid-area: bunker; }
-  .attraction-card[data-area="azumini-blue-river"] { grid-area: river; }
-  .attraction-card[data-area="akwete-weaving"] { grid-area: akwete; }
-  .attraction-card[data-area="long-juju"] { grid-area: juju; }
-  .attraction-card[data-area="colonial-history-museum"] { grid-area: museum; }
-  .attraction-card[data-area="amakama-wooden-cave"] { grid-area: amakama; }
 }
 
-/* Large: 1025px and wider. Cards form a different four-column feature layout. */
+/* Large: 1025px and wider. Four-column feature layout. */
 @media screen and (min-width: 1025px) {
   .attractions-grid {
     grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -232,23 +224,10 @@
     gap: 1.25rem;
     align-items: stretch;
   }
-
-  .attraction-card[data-area="ariaria"] { grid-area: ariaria; }
-  .attraction-card[data-area="national-war-museum"] { grid-area: war; }
-  .attraction-card[data-area="ojukwu-bunker"] { grid-area: bunker; }
-  .attraction-card[data-area="azumini-blue-river"] { grid-area: river; }
-  .attraction-card[data-area="akwete-weaving"] { grid-area: akwete; }
-  .attraction-card[data-area="long-juju"] { grid-area: juju; }
-  .attraction-card[data-area="colonial-history-museum"] { grid-area: museum; }
-  .attraction-card[data-area="amakama-wooden-cave"] { grid-area: amakama; }
 }
 
-/* Hover image effect is intentionally disabled on touch/small screens. */
+/* Hover image effect for pointer devices on medium/large screens. */
 @media (hover: hover) and (pointer: fine) and (min-width: 641px) {
-  .attraction-card img {
-    transition: transform 250ms ease, filter 250ms ease, box-shadow 250ms ease;
-  }
-
   .attraction-card figure {
     overflow: hidden;
     border-radius: 0.4rem;
