@@ -85,9 +85,12 @@ body {
   text-transform: uppercase;
   margin-bottom: .45rem;
 }
-h1, h2, h3 { color: var(--navy); line-height: 1.2; }
-h1 { font-size: clamp(2rem, 7vw, 3rem); margin-bottom: .7rem; }
-.page-intro > p:last-child { max-width: 680px; color: #414957; }
+h1, h2, h3 { color: var(--navy);
+   line-height: 1.2; }
+h1 { font-size: clamp(2rem, 7vw, 3rem);
+   margin-bottom: .7rem; }
+.page-intro > p:last-child { max-width: 680px;
+   color: #414957; }
 .directory-section { padding: .5rem 0 3rem; }
 .directory-toolbar {
   display: flex;
