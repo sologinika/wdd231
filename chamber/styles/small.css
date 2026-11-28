@@ -58,8 +58,8 @@ body {
   align-content: center;
   justify-items: center;
 }
-.primary-nav {
-  display: normal;
+  .primary-nav {
+  display: grid;
   position: absolute;
   top: 100%;
   left: 0;
